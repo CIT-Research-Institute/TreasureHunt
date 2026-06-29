@@ -1,0 +1,246 @@
+{
+  "experiment_file": "test_20_50.json",
+  "model_label": "model",
+  "model": "claude-haiku-4-5",
+  "temperature": 1,
+  "run_timestamp": "2026-05-15T11:58:13.406682",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 0,
+  "grand_correct": 0,
+  "grand_incorrect": 0,
+  "grand_accuracy": 0,
+  "avg_first_error_move": null,
+  "avg_failures_per_failed_test": null,
+  "token_usage": {
+    "total_prompt_tokens": 22580,
+    "total_completion_tokens": 20479,
+    "total_tokens": 43059,
+    "avg_prompt_tokens": 1129.0,
+    "avg_completion_tokens": 1024.0,
+    "avg_total_tokens": 2152.9
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 2,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 3,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 4,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 5,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 6,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 7,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 8,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 9,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 10,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 11,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 12,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 13,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 14,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 15,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 16,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 17,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 18,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1023,
+        "total_tokens": 2152,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 20,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1129,
+        "completion_tokens": 1024,
+        "total_tokens": 2153,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    }
+  ]
+}

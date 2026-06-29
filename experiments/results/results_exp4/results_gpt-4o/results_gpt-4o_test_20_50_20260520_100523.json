@@ -1,0 +1,310 @@
+{
+  "experiment_file": "test_20_50.json",
+  "model_label": "model",
+  "model": "gpt-4o",
+  "temperature": 1,
+  "run_timestamp": "2026-05-20T10:05:23.113630",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 357,
+  "grand_correct": 71,
+  "grand_incorrect": 286,
+  "grand_accuracy": 19.9,
+  "avg_first_error_move": 3.14,
+  "avg_failures_per_failed_test": 40.86,
+  "grand_error_breakdown": {
+    "position_errors": 145,
+    "text_errors": 12,
+    "both_errors": 129,
+    "position_error_pct": 50.7,
+    "text_error_pct": 4.2,
+    "both_error_pct": 45.1
+  },
+  "token_usage": {
+    "total_prompt_tokens": 19540,
+    "total_completion_tokens": 24757,
+    "total_tokens": 44297,
+    "avg_prompt_tokens": 977.0,
+    "avg_completion_tokens": 1237.8,
+    "avg_total_tokens": 2214.8
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 758,
+        "total_tokens": 1735,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1336,
+        "total_tokens": 2313,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1177,
+        "total_tokens": 2154,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 51,
+      "correct": 8,
+      "incorrect": 43,
+      "accuracy_pct": 15.7,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 22,
+      "text_errors": 2,
+      "both_errors": 19,
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1881,
+        "total_tokens": 2858,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1206,
+        "total_tokens": 2183,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 51,
+      "correct": 8,
+      "incorrect": 43,
+      "accuracy_pct": 15.7,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 25,
+      "text_errors": 2,
+      "both_errors": 16,
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1974,
+        "total_tokens": 2951,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1023,
+        "total_tokens": 2000,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 51,
+      "correct": 25,
+      "incorrect": 26,
+      "accuracy_pct": 49.0,
+      "passed": false,
+      "first_error_move": 6,
+      "pos_errors": 15,
+      "text_errors": 2,
+      "both_errors": 9,
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1960,
+        "total_tokens": 2937,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 757,
+        "total_tokens": 1734,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1314,
+        "total_tokens": 2291,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 51,
+      "correct": 5,
+      "incorrect": 46,
+      "accuracy_pct": 9.8,
+      "passed": false,
+      "first_error_move": 0,
+      "pos_errors": 11,
+      "text_errors": 2,
+      "both_errors": 33,
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1136,
+        "total_tokens": 2113,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 628,
+        "total_tokens": 1605,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 51,
+      "correct": 9,
+      "incorrect": 42,
+      "accuracy_pct": 17.6,
+      "passed": false,
+      "first_error_move": 0,
+      "pos_errors": 29,
+      "text_errors": 4,
+      "both_errors": 9,
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1867,
+        "total_tokens": 2844,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1375,
+        "total_tokens": 2352,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1091,
+        "total_tokens": 2068,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 762,
+        "total_tokens": 1739,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 516,
+        "total_tokens": 1493,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 51,
+      "correct": 6,
+      "incorrect": 45,
+      "accuracy_pct": 11.8,
+      "passed": false,
+      "first_error_move": 6,
+      "pos_errors": 28,
+      "text_errors": 0,
+      "both_errors": 17,
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1881,
+        "total_tokens": 2858,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 690,
+        "total_tokens": 1667,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 51,
+      "correct": 10,
+      "incorrect": 41,
+      "accuracy_pct": 19.6,
+      "passed": false,
+      "first_error_move": 6,
+      "pos_errors": 15,
+      "text_errors": 0,
+      "both_errors": 26,
+      "metrics": {
+        "prompt_tokens": 977,
+        "completion_tokens": 1425,
+        "total_tokens": 2402,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

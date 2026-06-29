@@ -1,0 +1,358 @@
+{
+  "experiment_file": "test_20_300.json",
+  "model_label": "model",
+  "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+  "temperature": 1,
+  "run_timestamp": "2026-05-21T10:44:08.534850",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 3913,
+  "grand_correct": 154,
+  "grand_incorrect": 3759,
+  "grand_accuracy": 3.9,
+  "avg_first_error_move": 5.0,
+  "avg_failures_per_failed_test": 289.15,
+  "grand_error_breakdown": {
+    "position_errors": 1349,
+    "text_errors": 30,
+    "both_errors": 2380,
+    "position_error_pct": 35.9,
+    "text_error_pct": 0.8,
+    "both_error_pct": 63.3
+  },
+  "token_usage": {
+    "total_prompt_tokens": 28215,
+    "total_completion_tokens": 137040,
+    "total_tokens": 165255,
+    "avg_prompt_tokens": 1410.8,
+    "avg_completion_tokens": 6852.0,
+    "avg_total_tokens": 8262.8
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 7827,
+        "total_tokens": 9312,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 301,
+      "correct": 11,
+      "incorrect": 290,
+      "accuracy_pct": 3.7,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 101,
+      "text_errors": 4,
+      "both_errors": 185,
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 6879,
+        "total_tokens": 8364,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 301,
+      "correct": 9,
+      "incorrect": 292,
+      "accuracy_pct": 3.0,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 125,
+      "text_errors": 4,
+      "both_errors": 163,
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 7501,
+        "total_tokens": 8986,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 301,
+      "correct": 17,
+      "incorrect": 284,
+      "accuracy_pct": 5.6,
+      "passed": false,
+      "first_error_move": 10,
+      "pos_errors": 111,
+      "text_errors": 2,
+      "both_errors": 171,
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 7699,
+        "total_tokens": 9184,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 301,
+      "correct": 7,
+      "incorrect": 294,
+      "accuracy_pct": 2.3,
+      "passed": false,
+      "first_error_move": 6,
+      "pos_errors": 109,
+      "text_errors": 1,
+      "both_errors": 184,
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 7525,
+        "total_tokens": 9010,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 7857,
+        "total_tokens": 9342,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 8131,
+        "total_tokens": 9616,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": null,
+        "completion_tokens": null,
+        "total_tokens": null,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "content_filter"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 301,
+      "correct": 9,
+      "incorrect": 292,
+      "accuracy_pct": 3.0,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 98,
+      "text_errors": 1,
+      "both_errors": 193,
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 6438,
+        "total_tokens": 7923,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 8056,
+        "total_tokens": 9541,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 301,
+      "correct": 21,
+      "incorrect": 280,
+      "accuracy_pct": 7.0,
+      "passed": false,
+      "first_error_move": 14,
+      "pos_errors": 124,
+      "text_errors": 1,
+      "both_errors": 155,
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 7188,
+        "total_tokens": 8673,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 301,
+      "correct": 10,
+      "incorrect": 291,
+      "accuracy_pct": 3.3,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 104,
+      "text_errors": 2,
+      "both_errors": 185,
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 6558,
+        "total_tokens": 8043,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 7825,
+        "total_tokens": 9310,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 301,
+      "correct": 12,
+      "incorrect": 289,
+      "accuracy_pct": 4.0,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 121,
+      "text_errors": 5,
+      "both_errors": 163,
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 7629,
+        "total_tokens": 9114,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 301,
+      "correct": 10,
+      "incorrect": 291,
+      "accuracy_pct": 3.3,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 71,
+      "text_errors": 5,
+      "both_errors": 215,
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 5360,
+        "total_tokens": 6845,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 301,
+      "correct": 12,
+      "incorrect": 289,
+      "accuracy_pct": 4.0,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 107,
+      "text_errors": 1,
+      "both_errors": 181,
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 7042,
+        "total_tokens": 8527,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 301,
+      "correct": 12,
+      "incorrect": 289,
+      "accuracy_pct": 4.0,
+      "passed": false,
+      "first_error_move": 9,
+      "pos_errors": 131,
+      "text_errors": 1,
+      "both_errors": 157,
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 7685,
+        "total_tokens": 9170,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 301,
+      "correct": 8,
+      "incorrect": 293,
+      "accuracy_pct": 2.7,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 72,
+      "text_errors": 1,
+      "both_errors": 220,
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 6853,
+        "total_tokens": 8338,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 7619,
+        "total_tokens": 9104,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 301,
+      "correct": 16,
+      "incorrect": 285,
+      "accuracy_pct": 5.3,
+      "passed": false,
+      "first_error_move": 9,
+      "pos_errors": 75,
+      "text_errors": 2,
+      "both_errors": 208,
+      "metrics": {
+        "prompt_tokens": 1485,
+        "completion_tokens": 5368,
+        "total_tokens": 6853,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

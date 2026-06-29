@@ -1,0 +1,414 @@
+{
+  "experiment_file": "test_20_300.json",
+  "model_label": "model",
+  "model": "o3-mini",
+  "temperature": 1,
+  "run_timestamp": "2026-05-20T19:32:59.775936",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 6020,
+  "grand_correct": 1964,
+  "grand_incorrect": 4056,
+  "grand_accuracy": 32.6,
+  "avg_first_error_move": 75.1,
+  "avg_failures_per_failed_test": 202.8,
+  "grand_error_breakdown": {
+    "position_errors": 2530,
+    "text_errors": 57,
+    "both_errors": 1469,
+    "position_error_pct": 62.4,
+    "text_error_pct": 1.4,
+    "both_error_pct": 36.2
+  },
+  "token_usage": {
+    "total_prompt_tokens": 29520,
+    "total_completion_tokens": 637188,
+    "total_tokens": 666708,
+    "avg_prompt_tokens": 1476.0,
+    "avg_completion_tokens": 31859.4,
+    "avg_total_tokens": 33335.4
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 301,
+      "correct": 44,
+      "incorrect": 257,
+      "accuracy_pct": 14.6,
+      "passed": false,
+      "first_error_move": 36,
+      "pos_errors": 132,
+      "text_errors": 5,
+      "both_errors": 120,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 38826,
+        "total_tokens": 40302,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 301,
+      "correct": 112,
+      "incorrect": 189,
+      "accuracy_pct": 37.2,
+      "passed": false,
+      "first_error_move": 111,
+      "pos_errors": 136,
+      "text_errors": 1,
+      "both_errors": 52,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 40265,
+        "total_tokens": 41741,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 301,
+      "correct": 195,
+      "incorrect": 106,
+      "accuracy_pct": 64.8,
+      "passed": false,
+      "first_error_move": 74,
+      "pos_errors": 79,
+      "text_errors": 0,
+      "both_errors": 27,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 30466,
+        "total_tokens": 31942,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 301,
+      "correct": 112,
+      "incorrect": 189,
+      "accuracy_pct": 37.2,
+      "passed": false,
+      "first_error_move": 110,
+      "pos_errors": 141,
+      "text_errors": 3,
+      "both_errors": 45,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 27913,
+        "total_tokens": 29389,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 301,
+      "correct": 99,
+      "incorrect": 202,
+      "accuracy_pct": 32.9,
+      "passed": false,
+      "first_error_move": 98,
+      "pos_errors": 150,
+      "text_errors": 0,
+      "both_errors": 52,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 33228,
+        "total_tokens": 34704,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 301,
+      "correct": 241,
+      "incorrect": 60,
+      "accuracy_pct": 80.1,
+      "passed": false,
+      "first_error_move": 79,
+      "pos_errors": 45,
+      "text_errors": 3,
+      "both_errors": 12,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 26256,
+        "total_tokens": 27732,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 301,
+      "correct": 81,
+      "incorrect": 220,
+      "accuracy_pct": 26.9,
+      "passed": false,
+      "first_error_move": 64,
+      "pos_errors": 163,
+      "text_errors": 3,
+      "both_errors": 54,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 46166,
+        "total_tokens": 47642,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 301,
+      "correct": 101,
+      "incorrect": 200,
+      "accuracy_pct": 33.6,
+      "passed": false,
+      "first_error_move": 101,
+      "pos_errors": 180,
+      "text_errors": 1,
+      "both_errors": 19,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 25259,
+        "total_tokens": 26735,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 301,
+      "correct": 59,
+      "incorrect": 242,
+      "accuracy_pct": 19.6,
+      "passed": false,
+      "first_error_move": 19,
+      "pos_errors": 150,
+      "text_errors": 12,
+      "both_errors": 80,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 27454,
+        "total_tokens": 28930,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 301,
+      "correct": 45,
+      "incorrect": 256,
+      "accuracy_pct": 15.0,
+      "passed": false,
+      "first_error_move": 43,
+      "pos_errors": 172,
+      "text_errors": 1,
+      "both_errors": 83,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 36805,
+        "total_tokens": 38281,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 301,
+      "correct": 125,
+      "incorrect": 176,
+      "accuracy_pct": 41.5,
+      "passed": false,
+      "first_error_move": 123,
+      "pos_errors": 127,
+      "text_errors": 1,
+      "both_errors": 48,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 35849,
+        "total_tokens": 37325,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 301,
+      "correct": 81,
+      "incorrect": 220,
+      "accuracy_pct": 26.9,
+      "passed": false,
+      "first_error_move": 70,
+      "pos_errors": 156,
+      "text_errors": 1,
+      "both_errors": 63,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 30922,
+        "total_tokens": 32398,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 301,
+      "correct": 114,
+      "incorrect": 187,
+      "accuracy_pct": 37.9,
+      "passed": false,
+      "first_error_move": 111,
+      "pos_errors": 134,
+      "text_errors": 1,
+      "both_errors": 52,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 29566,
+        "total_tokens": 31042,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 301,
+      "correct": 1,
+      "incorrect": 300,
+      "accuracy_pct": 0.3,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 300,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 18067,
+        "total_tokens": 19543,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 301,
+      "correct": 80,
+      "incorrect": 221,
+      "accuracy_pct": 26.6,
+      "passed": false,
+      "first_error_move": 80,
+      "pos_errors": 131,
+      "text_errors": 1,
+      "both_errors": 89,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 24009,
+        "total_tokens": 25485,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 301,
+      "correct": 56,
+      "incorrect": 245,
+      "accuracy_pct": 18.6,
+      "passed": false,
+      "first_error_move": 54,
+      "pos_errors": 113,
+      "text_errors": 2,
+      "both_errors": 130,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 24250,
+        "total_tokens": 25726,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 301,
+      "correct": 76,
+      "incorrect": 225,
+      "accuracy_pct": 25.2,
+      "passed": false,
+      "first_error_move": 71,
+      "pos_errors": 178,
+      "text_errors": 4,
+      "both_errors": 43,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 42291,
+        "total_tokens": 43767,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 301,
+      "correct": 64,
+      "incorrect": 237,
+      "accuracy_pct": 21.3,
+      "passed": false,
+      "first_error_move": 55,
+      "pos_errors": 117,
+      "text_errors": 5,
+      "both_errors": 115,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 26324,
+        "total_tokens": 27800,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 301,
+      "correct": 74,
+      "incorrect": 227,
+      "accuracy_pct": 24.6,
+      "passed": false,
+      "first_error_move": 66,
+      "pos_errors": 148,
+      "text_errors": 7,
+      "both_errors": 72,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 43124,
+        "total_tokens": 44600,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 301,
+      "correct": 204,
+      "incorrect": 97,
+      "accuracy_pct": 67.8,
+      "passed": false,
+      "first_error_move": 136,
+      "pos_errors": 78,
+      "text_errors": 6,
+      "both_errors": 13,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 30148,
+        "total_tokens": 31624,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

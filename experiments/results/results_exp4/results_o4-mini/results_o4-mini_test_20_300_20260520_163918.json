@@ -1,0 +1,358 @@
+{
+  "experiment_file": "test_20_300.json",
+  "model_label": "model",
+  "model": "o4-mini",
+  "temperature": 1,
+  "run_timestamp": "2026-05-20T16:39:18.511210",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 3913,
+  "grand_correct": 10,
+  "grand_incorrect": 3903,
+  "grand_accuracy": 0.3,
+  "avg_first_error_move": 0.77,
+  "avg_failures_per_failed_test": 300.23,
+  "grand_error_breakdown": {
+    "position_errors": 0,
+    "text_errors": 0,
+    "both_errors": 3903,
+    "position_error_pct": 0.0,
+    "text_error_pct": 0.0,
+    "both_error_pct": 100.0
+  },
+  "token_usage": {
+    "total_prompt_tokens": 29520,
+    "total_completion_tokens": 32527,
+    "total_tokens": 62047,
+    "avg_prompt_tokens": 1476.0,
+    "avg_completion_tokens": 1626.3,
+    "avg_total_tokens": 3102.3
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 1225,
+        "total_tokens": 2701,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 301,
+      "correct": 1,
+      "incorrect": 300,
+      "accuracy_pct": 0.3,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 300,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 1496,
+        "total_tokens": 2972,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 301,
+      "correct": 1,
+      "incorrect": 300,
+      "accuracy_pct": 0.3,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 300,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 1083,
+        "total_tokens": 2559,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 1504,
+        "total_tokens": 2980,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 301,
+      "correct": 1,
+      "incorrect": 300,
+      "accuracy_pct": 0.3,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 300,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 1340,
+        "total_tokens": 2816,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 301,
+      "correct": 1,
+      "incorrect": 300,
+      "accuracy_pct": 0.3,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 300,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 571,
+        "total_tokens": 2047,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 301,
+      "correct": 1,
+      "incorrect": 300,
+      "accuracy_pct": 0.3,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 300,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 1019,
+        "total_tokens": 2495,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 543,
+        "total_tokens": 2019,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 301,
+      "correct": 0,
+      "incorrect": 301,
+      "accuracy_pct": 0.0,
+      "passed": false,
+      "first_error_move": 0,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 301,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 2912,
+        "total_tokens": 4388,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 301,
+      "correct": 1,
+      "incorrect": 300,
+      "accuracy_pct": 0.3,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 300,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 3579,
+        "total_tokens": 5055,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 301,
+      "correct": 1,
+      "incorrect": 300,
+      "accuracy_pct": 0.3,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 300,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 1019,
+        "total_tokens": 2495,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 301,
+      "correct": 1,
+      "incorrect": 300,
+      "accuracy_pct": 0.3,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 300,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 699,
+        "total_tokens": 2175,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 2079,
+        "total_tokens": 3555,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 301,
+      "correct": 1,
+      "incorrect": 300,
+      "accuracy_pct": 0.3,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 300,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 1531,
+        "total_tokens": 3007,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 301,
+      "correct": 1,
+      "incorrect": 300,
+      "accuracy_pct": 0.3,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 300,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 701,
+        "total_tokens": 2177,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 2782,
+        "total_tokens": 4258,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 301,
+      "correct": 0,
+      "incorrect": 301,
+      "accuracy_pct": 0.0,
+      "passed": false,
+      "first_error_move": 0,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 301,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 1120,
+        "total_tokens": 2596,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 301,
+      "correct": 0,
+      "incorrect": 301,
+      "accuracy_pct": 0.0,
+      "passed": false,
+      "first_error_move": 0,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 301,
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 4896,
+        "total_tokens": 6372,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 862,
+        "total_tokens": 2338,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1476,
+        "completion_tokens": 1566,
+        "total_tokens": 3042,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

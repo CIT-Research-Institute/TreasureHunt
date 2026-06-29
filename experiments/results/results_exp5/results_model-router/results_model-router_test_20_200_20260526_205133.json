@@ -1,0 +1,461 @@
+{
+  "experiment_file": "test_20_200.json",
+  "model_label": "model-2",
+  "model": "model-router",
+  "temperature": 1,
+  "run_timestamp": "2026-05-26T20:51:33.636920",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 201,
+  "grand_correct": 1,
+  "grand_incorrect": 200,
+  "grand_accuracy": 0.5,
+  "avg_first_error_move": 1.0,
+  "avg_failures_per_failed_test": 200.0,
+  "token_usage": {
+    "total_prompt_tokens": 26320,
+    "total_completion_tokens": 680,
+    "total_tokens": 347670,
+    "avg_prompt_tokens": 1316.0,
+    "avg_completion_tokens": 34.0,
+    "avg_total_tokens": 17383.5
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 38,
+        "total_tokens": 11860,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 201,
+      "correct": 1,
+      "incorrect": 200,
+      "accuracy_pct": 0.5,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 7,
+      "gold_model": 0,
+      "traps_expected": 8,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "BLOCKED",
+        "OUCH",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "YIPEE",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OUCH",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "BLOCKED",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 63,
+        "total_tokens": 15281,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 17,
+        "total_tokens": 11994,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 18,
+        "total_tokens": 21364,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 23,
+        "total_tokens": 16095,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 44,
+        "total_tokens": 15158,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 35,
+        "total_tokens": 20534,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 22,
+        "total_tokens": 14461,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 24,
+        "total_tokens": 15774,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 18,
+        "total_tokens": 18846,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 21,
+        "total_tokens": 15769,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 18,
+        "total_tokens": 24923,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 18,
+        "total_tokens": 28390,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 18,
+        "total_tokens": 18176,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 23,
+        "total_tokens": 19304,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 37,
+        "total_tokens": 17037,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 24,
+        "total_tokens": 14461,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 35,
+        "total_tokens": 19280,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 87,
+        "total_tokens": 17921,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1316,
+        "completion_tokens": 97,
+        "total_tokens": 11042,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

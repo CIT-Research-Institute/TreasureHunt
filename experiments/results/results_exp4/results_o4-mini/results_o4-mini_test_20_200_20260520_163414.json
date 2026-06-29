@@ -1,0 +1,342 @@
+{
+  "experiment_file": "test_20_200.json",
+  "model_label": "model",
+  "model": "o4-mini",
+  "temperature": 1,
+  "run_timestamp": "2026-05-20T16:34:14.326983",
+  "total_tests": 20,
+  "perfect_tests": 1,
+  "failed_tests": 19,
+  "grand_total_moves": 2211,
+  "grand_correct": 585,
+  "grand_incorrect": 1626,
+  "grand_accuracy": 26.5,
+  "avg_first_error_move": 31.8,
+  "avg_failures_per_failed_test": 162.6,
+  "grand_error_breakdown": {
+    "position_errors": 140,
+    "text_errors": 3,
+    "both_errors": 1483,
+    "position_error_pct": 8.6,
+    "text_error_pct": 0.2,
+    "both_error_pct": 91.2
+  },
+  "token_usage": {
+    "total_prompt_tokens": 25520,
+    "total_completion_tokens": 116496,
+    "total_tokens": 142016,
+    "avg_prompt_tokens": 1276.0,
+    "avg_completion_tokens": 5824.8,
+    "avg_total_tokens": 7100.8
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 201,
+      "correct": 1,
+      "incorrect": 200,
+      "accuracy_pct": 0.5,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 200,
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 2299,
+        "total_tokens": 3575,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 201,
+      "correct": 1,
+      "incorrect": 200,
+      "accuracy_pct": 0.5,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 200,
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 4603,
+        "total_tokens": 5879,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 201,
+      "correct": 148,
+      "incorrect": 53,
+      "accuracy_pct": 73.6,
+      "passed": false,
+      "first_error_move": 82,
+      "pos_errors": 40,
+      "text_errors": 3,
+      "both_errors": 10,
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 11763,
+        "total_tokens": 13039,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 201,
+      "correct": 201,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 12460,
+        "total_tokens": 13736,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 201,
+      "correct": 134,
+      "incorrect": 67,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 134,
+      "pos_errors": 18,
+      "text_errors": 0,
+      "both_errors": 49,
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 17927,
+        "total_tokens": 19203,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 201,
+      "correct": 1,
+      "incorrect": 200,
+      "accuracy_pct": 0.5,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 200,
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 2875,
+        "total_tokens": 4151,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 991,
+        "total_tokens": 2267,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 927,
+        "total_tokens": 2203,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 201,
+      "correct": 1,
+      "incorrect": 200,
+      "accuracy_pct": 0.5,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 200,
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 1339,
+        "total_tokens": 2615,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 201,
+      "correct": 1,
+      "incorrect": 200,
+      "accuracy_pct": 0.5,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 200,
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 891,
+        "total_tokens": 2167,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 14887,
+        "total_tokens": 16163,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 286,
+        "total_tokens": 1562,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 1439,
+        "total_tokens": 2715,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 3412,
+        "total_tokens": 4688,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 12382,
+        "total_tokens": 13658,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 201,
+      "correct": 1,
+      "incorrect": 200,
+      "accuracy_pct": 0.5,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 200,
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 955,
+        "total_tokens": 2231,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 1372,
+        "total_tokens": 2648,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 201,
+      "correct": 1,
+      "incorrect": 200,
+      "accuracy_pct": 0.5,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 200,
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 2427,
+        "total_tokens": 3703,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 7898,
+        "total_tokens": 9174,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 201,
+      "correct": 95,
+      "incorrect": 106,
+      "accuracy_pct": 47.3,
+      "passed": false,
+      "first_error_move": 95,
+      "pos_errors": 82,
+      "text_errors": 0,
+      "both_errors": 24,
+      "metrics": {
+        "prompt_tokens": 1276,
+        "completion_tokens": 15363,
+        "total_tokens": 16639,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

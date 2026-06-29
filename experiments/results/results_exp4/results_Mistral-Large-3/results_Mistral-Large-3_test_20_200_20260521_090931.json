@@ -1,0 +1,414 @@
+{
+  "experiment_file": "test_20_200.json",
+  "model_label": "model",
+  "model": "Mistral-Large-3",
+  "temperature": 1,
+  "run_timestamp": "2026-05-21T09:09:31.604243",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 4020,
+  "grand_correct": 264,
+  "grand_incorrect": 3756,
+  "grand_accuracy": 6.6,
+  "avg_first_error_move": 7.0,
+  "avg_failures_per_failed_test": 187.8,
+  "grand_error_breakdown": {
+    "position_errors": 1629,
+    "text_errors": 43,
+    "both_errors": 2084,
+    "position_error_pct": 43.4,
+    "text_error_pct": 1.1,
+    "both_error_pct": 55.5
+  },
+  "token_usage": {
+    "total_prompt_tokens": 26589,
+    "total_completion_tokens": 115291,
+    "total_tokens": 141880,
+    "avg_prompt_tokens": 1329.5,
+    "avg_completion_tokens": 5764.6,
+    "avg_total_tokens": 7094.0
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 201,
+      "correct": 4,
+      "incorrect": 197,
+      "accuracy_pct": 2.0,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 105,
+      "text_errors": 1,
+      "both_errors": 91,
+      "metrics": {
+        "prompt_tokens": 1330,
+        "completion_tokens": 6175,
+        "total_tokens": 7505,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 201,
+      "correct": 7,
+      "incorrect": 194,
+      "accuracy_pct": 3.5,
+      "passed": false,
+      "first_error_move": 7,
+      "pos_errors": 70,
+      "text_errors": 2,
+      "both_errors": 122,
+      "metrics": {
+        "prompt_tokens": 1327,
+        "completion_tokens": 5599,
+        "total_tokens": 6926,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 201,
+      "correct": 6,
+      "incorrect": 195,
+      "accuracy_pct": 3.0,
+      "passed": false,
+      "first_error_move": 6,
+      "pos_errors": 89,
+      "text_errors": 0,
+      "both_errors": 106,
+      "metrics": {
+        "prompt_tokens": 1328,
+        "completion_tokens": 5610,
+        "total_tokens": 6938,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 201,
+      "correct": 12,
+      "incorrect": 189,
+      "accuracy_pct": 6.0,
+      "passed": false,
+      "first_error_move": 10,
+      "pos_errors": 88,
+      "text_errors": 0,
+      "both_errors": 101,
+      "metrics": {
+        "prompt_tokens": 1328,
+        "completion_tokens": 6326,
+        "total_tokens": 7654,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 201,
+      "correct": 25,
+      "incorrect": 176,
+      "accuracy_pct": 12.4,
+      "passed": false,
+      "first_error_move": 8,
+      "pos_errors": 54,
+      "text_errors": 2,
+      "both_errors": 120,
+      "metrics": {
+        "prompt_tokens": 1331,
+        "completion_tokens": 4575,
+        "total_tokens": 5906,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 201,
+      "correct": 26,
+      "incorrect": 175,
+      "accuracy_pct": 12.9,
+      "passed": false,
+      "first_error_move": 6,
+      "pos_errors": 67,
+      "text_errors": 3,
+      "both_errors": 105,
+      "metrics": {
+        "prompt_tokens": 1326,
+        "completion_tokens": 5152,
+        "total_tokens": 6478,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 201,
+      "correct": 10,
+      "incorrect": 191,
+      "accuracy_pct": 5.0,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 96,
+      "text_errors": 2,
+      "both_errors": 93,
+      "metrics": {
+        "prompt_tokens": 1328,
+        "completion_tokens": 6304,
+        "total_tokens": 7632,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 201,
+      "correct": 11,
+      "incorrect": 190,
+      "accuracy_pct": 5.5,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 79,
+      "text_errors": 1,
+      "both_errors": 110,
+      "metrics": {
+        "prompt_tokens": 1329,
+        "completion_tokens": 5537,
+        "total_tokens": 6866,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 201,
+      "correct": 22,
+      "incorrect": 179,
+      "accuracy_pct": 10.9,
+      "passed": false,
+      "first_error_move": 7,
+      "pos_errors": 80,
+      "text_errors": 5,
+      "both_errors": 94,
+      "metrics": {
+        "prompt_tokens": 1328,
+        "completion_tokens": 5469,
+        "total_tokens": 6797,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 201,
+      "correct": 20,
+      "incorrect": 181,
+      "accuracy_pct": 10.0,
+      "passed": false,
+      "first_error_move": 19,
+      "pos_errors": 84,
+      "text_errors": 0,
+      "both_errors": 97,
+      "metrics": {
+        "prompt_tokens": 1330,
+        "completion_tokens": 6040,
+        "total_tokens": 7370,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 201,
+      "correct": 6,
+      "incorrect": 195,
+      "accuracy_pct": 3.0,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 110,
+      "text_errors": 3,
+      "both_errors": 82,
+      "metrics": {
+        "prompt_tokens": 1329,
+        "completion_tokens": 7343,
+        "total_tokens": 8672,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 201,
+      "correct": 24,
+      "incorrect": 177,
+      "accuracy_pct": 11.9,
+      "passed": false,
+      "first_error_move": 17,
+      "pos_errors": 83,
+      "text_errors": 3,
+      "both_errors": 91,
+      "metrics": {
+        "prompt_tokens": 1333,
+        "completion_tokens": 5906,
+        "total_tokens": 7239,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 201,
+      "correct": 6,
+      "incorrect": 195,
+      "accuracy_pct": 3.0,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 58,
+      "text_errors": 5,
+      "both_errors": 132,
+      "metrics": {
+        "prompt_tokens": 1328,
+        "completion_tokens": 4616,
+        "total_tokens": 5944,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 201,
+      "correct": 5,
+      "incorrect": 196,
+      "accuracy_pct": 2.5,
+      "passed": false,
+      "first_error_move": 4,
+      "pos_errors": 72,
+      "text_errors": 0,
+      "both_errors": 124,
+      "metrics": {
+        "prompt_tokens": 1329,
+        "completion_tokens": 4648,
+        "total_tokens": 5977,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 201,
+      "correct": 15,
+      "incorrect": 186,
+      "accuracy_pct": 7.5,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 118,
+      "text_errors": 4,
+      "both_errors": 64,
+      "metrics": {
+        "prompt_tokens": 1328,
+        "completion_tokens": 7636,
+        "total_tokens": 8964,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 201,
+      "correct": 6,
+      "incorrect": 195,
+      "accuracy_pct": 3.0,
+      "passed": false,
+      "first_error_move": 4,
+      "pos_errors": 75,
+      "text_errors": 1,
+      "both_errors": 119,
+      "metrics": {
+        "prompt_tokens": 1331,
+        "completion_tokens": 5799,
+        "total_tokens": 7130,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 201,
+      "correct": 11,
+      "incorrect": 190,
+      "accuracy_pct": 5.5,
+      "passed": false,
+      "first_error_move": 7,
+      "pos_errors": 93,
+      "text_errors": 5,
+      "both_errors": 92,
+      "metrics": {
+        "prompt_tokens": 1333,
+        "completion_tokens": 5985,
+        "total_tokens": 7318,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 201,
+      "correct": 17,
+      "incorrect": 184,
+      "accuracy_pct": 8.5,
+      "passed": false,
+      "first_error_move": 17,
+      "pos_errors": 43,
+      "text_errors": 1,
+      "both_errors": 140,
+      "metrics": {
+        "prompt_tokens": 1332,
+        "completion_tokens": 4690,
+        "total_tokens": 6022,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 201,
+      "correct": 5,
+      "incorrect": 196,
+      "accuracy_pct": 2.5,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 100,
+      "text_errors": 3,
+      "both_errors": 93,
+      "metrics": {
+        "prompt_tokens": 1333,
+        "completion_tokens": 6629,
+        "total_tokens": 7962,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 201,
+      "correct": 26,
+      "incorrect": 175,
+      "accuracy_pct": 12.9,
+      "passed": false,
+      "first_error_move": 7,
+      "pos_errors": 65,
+      "text_errors": 2,
+      "both_errors": 108,
+      "metrics": {
+        "prompt_tokens": 1328,
+        "completion_tokens": 5252,
+        "total_tokens": 6580,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

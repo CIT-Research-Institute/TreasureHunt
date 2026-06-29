@@ -1,0 +1,278 @@
+{
+  "experiment_file": "test_20_200.json",
+  "model_label": "model",
+  "model": "cohere-command-a",
+  "temperature": 1,
+  "run_timestamp": "2026-05-21T13:07:56.330113",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 603,
+  "grand_correct": 31,
+  "grand_incorrect": 572,
+  "grand_accuracy": 5.1,
+  "avg_first_error_move": 7.0,
+  "avg_failures_per_failed_test": 190.67,
+  "grand_error_breakdown": {
+    "position_errors": 261,
+    "text_errors": 1,
+    "both_errors": 310,
+    "position_error_pct": 45.6,
+    "text_error_pct": 0.2,
+    "both_error_pct": 54.2
+  },
+  "token_usage": {
+    "total_prompt_tokens": 27229,
+    "total_completion_tokens": 159788,
+    "total_tokens": 187017,
+    "avg_prompt_tokens": 1361.5,
+    "avg_completion_tokens": 7989.4,
+    "avg_total_tokens": 9350.9
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1362,
+        "completion_tokens": 8191,
+        "total_tokens": 9553,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 2,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1359,
+        "completion_tokens": 8191,
+        "total_tokens": 9550,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 3,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1360,
+        "completion_tokens": 8191,
+        "total_tokens": 9551,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 4,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1360,
+        "completion_tokens": 8191,
+        "total_tokens": 9551,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 201,
+      "correct": 10,
+      "incorrect": 191,
+      "accuracy_pct": 5.0,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 106,
+      "text_errors": 0,
+      "both_errors": 85,
+      "metrics": {
+        "prompt_tokens": 1363,
+        "completion_tokens": 7783,
+        "total_tokens": 9146,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1358,
+        "completion_tokens": 8190,
+        "total_tokens": 9548,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 7,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1360,
+        "completion_tokens": 8190,
+        "total_tokens": 9550,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 8,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1361,
+        "completion_tokens": 8191,
+        "total_tokens": 9552,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 9,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1360,
+        "completion_tokens": 8191,
+        "total_tokens": 9551,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 201,
+      "correct": 14,
+      "incorrect": 187,
+      "accuracy_pct": 7.0,
+      "passed": false,
+      "first_error_move": 9,
+      "pos_errors": 60,
+      "text_errors": 1,
+      "both_errors": 126,
+      "metrics": {
+        "prompt_tokens": 1362,
+        "completion_tokens": 4984,
+        "total_tokens": 6346,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1361,
+        "completion_tokens": 8191,
+        "total_tokens": 9552,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 12,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1365,
+        "completion_tokens": 8191,
+        "total_tokens": 9556,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 13,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1360,
+        "completion_tokens": 8191,
+        "total_tokens": 9551,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 14,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1361,
+        "completion_tokens": 8191,
+        "total_tokens": 9552,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 15,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1360,
+        "completion_tokens": 8191,
+        "total_tokens": 9551,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 16,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1363,
+        "completion_tokens": 8191,
+        "total_tokens": 9554,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 201,
+      "correct": 7,
+      "incorrect": 194,
+      "accuracy_pct": 3.5,
+      "passed": false,
+      "first_error_move": 7,
+      "pos_errors": 95,
+      "text_errors": 0,
+      "both_errors": 99,
+      "metrics": {
+        "prompt_tokens": 1365,
+        "completion_tokens": 7777,
+        "total_tokens": 9142,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1364,
+        "completion_tokens": 8190,
+        "total_tokens": 9554,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1365,
+        "completion_tokens": 8191,
+        "total_tokens": 9556,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 20,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1360,
+        "completion_tokens": 8191,
+        "total_tokens": 9551,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    }
+  ]
+}

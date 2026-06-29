@@ -1,0 +1,302 @@
+{
+  "experiment_file": "test_20_100.json",
+  "model_label": "model",
+  "model": "model-router",
+  "temperature": 1,
+  "run_timestamp": "2026-05-20T21:24:03.832594",
+  "total_tests": 20,
+  "perfect_tests": 2,
+  "failed_tests": 18,
+  "grand_total_moves": 606,
+  "grand_correct": 378,
+  "grand_incorrect": 228,
+  "grand_accuracy": 62.4,
+  "avg_first_error_move": 38.0,
+  "avg_failures_per_failed_test": 57.0,
+  "grand_error_breakdown": {
+    "position_errors": 156,
+    "text_errors": 5,
+    "both_errors": 67,
+    "position_error_pct": 68.4,
+    "text_error_pct": 2.2,
+    "both_error_pct": 29.4
+  },
+  "token_usage": {
+    "total_prompt_tokens": 21280,
+    "total_completion_tokens": 17778,
+    "total_tokens": 235160,
+    "avg_prompt_tokens": 1064.0,
+    "avg_completion_tokens": 888.9,
+    "avg_total_tokens": 11758.0
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 87,
+        "total_tokens": 11526,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 101,
+      "correct": 32,
+      "incorrect": 69,
+      "accuracy_pct": 31.7,
+      "passed": false,
+      "first_error_move": 32,
+      "pos_errors": 47,
+      "text_errors": 2,
+      "both_errors": 20,
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 2865,
+        "total_tokens": 11853,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 26,
+        "total_tokens": 10272,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 26,
+        "total_tokens": 12620,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 101,
+      "correct": 101,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 2868,
+        "total_tokens": 10802,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 72,
+        "total_tokens": 13224,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 101,
+      "correct": 101,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 2874,
+        "total_tokens": 13120,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 45,
+        "total_tokens": 14401,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 24,
+        "total_tokens": 14891,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 25,
+        "total_tokens": 10749,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 17,
+        "total_tokens": 12713,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 101,
+      "correct": 62,
+      "incorrect": 39,
+      "accuracy_pct": 61.4,
+      "passed": false,
+      "first_error_move": 56,
+      "pos_errors": 23,
+      "text_errors": 1,
+      "both_errors": 15,
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 2879,
+        "total_tokens": 14843,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 53,
+        "total_tokens": 10787,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 88,
+        "total_tokens": 10318,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 59,
+        "total_tokens": 8159,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 44,
+        "total_tokens": 13263,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 101,
+      "correct": 22,
+      "incorrect": 79,
+      "accuracy_pct": 21.8,
+      "passed": false,
+      "first_error_move": 14,
+      "pos_errors": 54,
+      "text_errors": 2,
+      "both_errors": 23,
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 2862,
+        "total_tokens": 10645,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 27,
+        "total_tokens": 13985,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 89,
+        "total_tokens": 7073,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 101,
+      "correct": 60,
+      "incorrect": 41,
+      "accuracy_pct": 59.4,
+      "passed": false,
+      "first_error_move": 50,
+      "pos_errors": 32,
+      "text_errors": 0,
+      "both_errors": 9,
+      "metrics": {
+        "prompt_tokens": 1064,
+        "completion_tokens": 2748,
+        "total_tokens": 9916,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

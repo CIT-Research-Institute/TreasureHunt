@@ -1,0 +1,414 @@
+{
+  "experiment_file": "test_20_50.json",
+  "model_label": "model",
+  "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+  "temperature": 1,
+  "run_timestamp": "2026-05-21T10:47:14.273542",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 1020,
+  "grand_correct": 203,
+  "grand_incorrect": 817,
+  "grand_accuracy": 19.9,
+  "avg_first_error_move": 4.15,
+  "avg_failures_per_failed_test": 40.85,
+  "grand_error_breakdown": {
+    "position_errors": 469,
+    "text_errors": 39,
+    "both_errors": 309,
+    "position_error_pct": 57.4,
+    "text_error_pct": 4.8,
+    "both_error_pct": 37.8
+  },
+  "token_usage": {
+    "total_prompt_tokens": 19700,
+    "total_completion_tokens": 38831,
+    "total_tokens": 58531,
+    "avg_prompt_tokens": 985.0,
+    "avg_completion_tokens": 1941.5,
+    "avg_total_tokens": 2926.6
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 51,
+      "correct": 9,
+      "incorrect": 42,
+      "accuracy_pct": 17.6,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 24,
+      "text_errors": 6,
+      "both_errors": 12,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1963,
+        "total_tokens": 2948,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 51,
+      "correct": 6,
+      "incorrect": 45,
+      "accuracy_pct": 11.8,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 28,
+      "text_errors": 2,
+      "both_errors": 15,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1973,
+        "total_tokens": 2958,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 51,
+      "correct": 2,
+      "incorrect": 49,
+      "accuracy_pct": 3.9,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 34,
+      "text_errors": 0,
+      "both_errors": 15,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1976,
+        "total_tokens": 2961,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 51,
+      "correct": 5,
+      "incorrect": 46,
+      "accuracy_pct": 9.8,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 20,
+      "text_errors": 1,
+      "both_errors": 25,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1947,
+        "total_tokens": 2932,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 51,
+      "correct": 13,
+      "incorrect": 38,
+      "accuracy_pct": 25.5,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 31,
+      "text_errors": 2,
+      "both_errors": 5,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1964,
+        "total_tokens": 2949,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 51,
+      "correct": 8,
+      "incorrect": 43,
+      "accuracy_pct": 15.7,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 25,
+      "text_errors": 3,
+      "both_errors": 15,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1980,
+        "total_tokens": 2965,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 51,
+      "correct": 9,
+      "incorrect": 42,
+      "accuracy_pct": 17.6,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 28,
+      "text_errors": 3,
+      "both_errors": 11,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1852,
+        "total_tokens": 2837,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 51,
+      "correct": 17,
+      "incorrect": 34,
+      "accuracy_pct": 33.3,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 24,
+      "text_errors": 2,
+      "both_errors": 8,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1966,
+        "total_tokens": 2951,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 51,
+      "correct": 15,
+      "incorrect": 36,
+      "accuracy_pct": 29.4,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 24,
+      "text_errors": 3,
+      "both_errors": 9,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1942,
+        "total_tokens": 2927,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 51,
+      "correct": 12,
+      "incorrect": 39,
+      "accuracy_pct": 23.5,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 26,
+      "text_errors": 1,
+      "both_errors": 12,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1887,
+        "total_tokens": 2872,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 51,
+      "correct": 8,
+      "incorrect": 43,
+      "accuracy_pct": 15.7,
+      "passed": false,
+      "first_error_move": 0,
+      "pos_errors": 22,
+      "text_errors": 2,
+      "both_errors": 19,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1930,
+        "total_tokens": 2915,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 51,
+      "correct": 11,
+      "incorrect": 40,
+      "accuracy_pct": 21.6,
+      "passed": false,
+      "first_error_move": 10,
+      "pos_errors": 18,
+      "text_errors": 0,
+      "both_errors": 22,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1899,
+        "total_tokens": 2884,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 51,
+      "correct": 13,
+      "incorrect": 38,
+      "accuracy_pct": 25.5,
+      "passed": false,
+      "first_error_move": 8,
+      "pos_errors": 18,
+      "text_errors": 0,
+      "both_errors": 20,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1989,
+        "total_tokens": 2974,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 51,
+      "correct": 13,
+      "incorrect": 38,
+      "accuracy_pct": 25.5,
+      "passed": false,
+      "first_error_move": 10,
+      "pos_errors": 26,
+      "text_errors": 0,
+      "both_errors": 12,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1962,
+        "total_tokens": 2947,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 51,
+      "correct": 9,
+      "incorrect": 42,
+      "accuracy_pct": 17.6,
+      "passed": false,
+      "first_error_move": 9,
+      "pos_errors": 31,
+      "text_errors": 1,
+      "both_errors": 10,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1884,
+        "total_tokens": 2869,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 51,
+      "correct": 11,
+      "incorrect": 40,
+      "accuracy_pct": 21.6,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 18,
+      "text_errors": 3,
+      "both_errors": 19,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1965,
+        "total_tokens": 2950,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 51,
+      "correct": 6,
+      "incorrect": 45,
+      "accuracy_pct": 11.8,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 7,
+      "text_errors": 1,
+      "both_errors": 37,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1995,
+        "total_tokens": 2980,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 51,
+      "correct": 10,
+      "incorrect": 41,
+      "accuracy_pct": 19.6,
+      "passed": false,
+      "first_error_move": 6,
+      "pos_errors": 27,
+      "text_errors": 1,
+      "both_errors": 13,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1889,
+        "total_tokens": 2874,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 51,
+      "correct": 11,
+      "incorrect": 40,
+      "accuracy_pct": 21.6,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 19,
+      "text_errors": 5,
+      "both_errors": 16,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1902,
+        "total_tokens": 2887,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 51,
+      "correct": 15,
+      "incorrect": 36,
+      "accuracy_pct": 29.4,
+      "passed": false,
+      "first_error_move": 6,
+      "pos_errors": 19,
+      "text_errors": 3,
+      "both_errors": 14,
+      "metrics": {
+        "prompt_tokens": 985,
+        "completion_tokens": 1966,
+        "total_tokens": 2951,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

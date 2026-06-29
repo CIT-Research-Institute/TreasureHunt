@@ -1,0 +1,414 @@
+{
+  "experiment_file": "test_20_200.json",
+  "model_label": "model",
+  "model": "Kimi-K2.5",
+  "temperature": 1,
+  "run_timestamp": "2026-05-21T15:55:21.304955",
+  "total_tests": 20,
+  "perfect_tests": 4,
+  "failed_tests": 16,
+  "grand_total_moves": 4020,
+  "grand_correct": 2622,
+  "grand_incorrect": 1398,
+  "grand_accuracy": 65.2,
+  "avg_first_error_move": 77.75,
+  "avg_failures_per_failed_test": 87.38,
+  "grand_error_breakdown": {
+    "position_errors": 987,
+    "text_errors": 41,
+    "both_errors": 370,
+    "position_error_pct": 70.6,
+    "text_error_pct": 2.9,
+    "both_error_pct": 26.5
+  },
+  "token_usage": {
+    "total_prompt_tokens": 25880,
+    "total_completion_tokens": 501926,
+    "total_tokens": 527806,
+    "avg_prompt_tokens": 1294.0,
+    "avg_completion_tokens": 25096.3,
+    "avg_total_tokens": 26390.3
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 201,
+      "correct": 124,
+      "incorrect": 77,
+      "accuracy_pct": 61.7,
+      "passed": false,
+      "first_error_move": 121,
+      "pos_errors": 57,
+      "text_errors": 0,
+      "both_errors": 20,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 27809,
+        "total_tokens": 29103,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 201,
+      "correct": 194,
+      "incorrect": 7,
+      "accuracy_pct": 96.5,
+      "passed": false,
+      "first_error_move": 7,
+      "pos_errors": 3,
+      "text_errors": 2,
+      "both_errors": 2,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 24609,
+        "total_tokens": 25903,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 201,
+      "correct": 154,
+      "incorrect": 47,
+      "accuracy_pct": 76.6,
+      "passed": false,
+      "first_error_move": 154,
+      "pos_errors": 35,
+      "text_errors": 1,
+      "both_errors": 11,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 36017,
+        "total_tokens": 37311,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 201,
+      "correct": 90,
+      "incorrect": 111,
+      "accuracy_pct": 44.8,
+      "passed": false,
+      "first_error_move": 38,
+      "pos_errors": 85,
+      "text_errors": 2,
+      "both_errors": 24,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 23661,
+        "total_tokens": 24955,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 201,
+      "correct": 127,
+      "incorrect": 74,
+      "accuracy_pct": 63.2,
+      "passed": false,
+      "first_error_move": 93,
+      "pos_errors": 55,
+      "text_errors": 1,
+      "both_errors": 18,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 22828,
+        "total_tokens": 24122,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 201,
+      "correct": 135,
+      "incorrect": 66,
+      "accuracy_pct": 67.2,
+      "passed": false,
+      "first_error_move": 86,
+      "pos_errors": 49,
+      "text_errors": 2,
+      "both_errors": 15,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 27678,
+        "total_tokens": 28972,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 201,
+      "correct": 135,
+      "incorrect": 66,
+      "accuracy_pct": 67.2,
+      "passed": false,
+      "first_error_move": 134,
+      "pos_errors": 51,
+      "text_errors": 1,
+      "both_errors": 14,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 20811,
+        "total_tokens": 22105,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 201,
+      "correct": 201,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 20228,
+        "total_tokens": 21522,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 201,
+      "correct": 95,
+      "incorrect": 106,
+      "accuracy_pct": 47.3,
+      "passed": false,
+      "first_error_move": 80,
+      "pos_errors": 70,
+      "text_errors": 3,
+      "both_errors": 33,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 22434,
+        "total_tokens": 23728,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 201,
+      "correct": 201,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 26289,
+        "total_tokens": 27583,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 201,
+      "correct": 201,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 23305,
+        "total_tokens": 24599,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 201,
+      "correct": 163,
+      "incorrect": 38,
+      "accuracy_pct": 81.1,
+      "passed": false,
+      "first_error_move": 12,
+      "pos_errors": 21,
+      "text_errors": 3,
+      "both_errors": 14,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 23866,
+        "total_tokens": 25160,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 201,
+      "correct": 45,
+      "incorrect": 156,
+      "accuracy_pct": 22.4,
+      "passed": false,
+      "first_error_move": 18,
+      "pos_errors": 116,
+      "text_errors": 4,
+      "both_errors": 36,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 22174,
+        "total_tokens": 23468,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 201,
+      "correct": 91,
+      "incorrect": 110,
+      "accuracy_pct": 45.3,
+      "passed": false,
+      "first_error_move": 91,
+      "pos_errors": 82,
+      "text_errors": 0,
+      "both_errors": 28,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 26787,
+        "total_tokens": 28081,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 201,
+      "correct": 130,
+      "incorrect": 71,
+      "accuracy_pct": 64.7,
+      "passed": false,
+      "first_error_move": 126,
+      "pos_errors": 38,
+      "text_errors": 5,
+      "both_errors": 28,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 29187,
+        "total_tokens": 30481,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 201,
+      "correct": 62,
+      "incorrect": 139,
+      "accuracy_pct": 30.8,
+      "passed": false,
+      "first_error_move": 51,
+      "pos_errors": 90,
+      "text_errors": 5,
+      "both_errors": 44,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 29105,
+        "total_tokens": 30399,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 201,
+      "correct": 201,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 21652,
+        "total_tokens": 22946,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 201,
+      "correct": 76,
+      "incorrect": 125,
+      "accuracy_pct": 37.8,
+      "passed": false,
+      "first_error_move": 68,
+      "pos_errors": 89,
+      "text_errors": 5,
+      "both_errors": 31,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 24344,
+        "total_tokens": 25638,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 201,
+      "correct": 84,
+      "incorrect": 117,
+      "accuracy_pct": 41.8,
+      "passed": false,
+      "first_error_move": 79,
+      "pos_errors": 84,
+      "text_errors": 2,
+      "both_errors": 31,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 26084,
+        "total_tokens": 27378,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 201,
+      "correct": 113,
+      "incorrect": 88,
+      "accuracy_pct": 56.2,
+      "passed": false,
+      "first_error_move": 86,
+      "pos_errors": 62,
+      "text_errors": 5,
+      "both_errors": 21,
+      "metrics": {
+        "prompt_tokens": 1294,
+        "completion_tokens": 23058,
+        "total_tokens": 24352,
+        "model": "Kimi-K2.5",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

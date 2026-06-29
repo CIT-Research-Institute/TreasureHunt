@@ -1,0 +1,414 @@
+{
+  "experiment_file": "test_20_20.json",
+  "model_label": "model-3",
+  "model": "claude-sonnet-4-5",
+  "temperature": 1,
+  "run_timestamp": "2026-05-22T10:42:07.080630",
+  "total_tests": 20,
+  "perfect_tests": 15,
+  "failed_tests": 5,
+  "grand_total_moves": 420,
+  "grand_correct": 391,
+  "grand_incorrect": 29,
+  "grand_accuracy": 93.1,
+  "avg_first_error_move": 11.6,
+  "avg_failures_per_failed_test": 5.8,
+  "grand_error_breakdown": {
+    "position_errors": 14,
+    "text_errors": 5,
+    "both_errors": 10,
+    "position_error_pct": 48.3,
+    "text_error_pct": 17.2,
+    "both_error_pct": 34.5
+  },
+  "token_usage": {
+    "total_prompt_tokens": 20700,
+    "total_completion_tokens": 18587,
+    "total_tokens": 39287,
+    "avg_prompt_tokens": 1035.0,
+    "avg_completion_tokens": 929.4,
+    "avg_total_tokens": 1964.3
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 929,
+        "total_tokens": 1964,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 933,
+        "total_tokens": 1968,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 934,
+        "total_tokens": 1969,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 927,
+        "total_tokens": 1962,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 21,
+      "correct": 15,
+      "incorrect": 6,
+      "accuracy_pct": 71.4,
+      "passed": false,
+      "first_error_move": 15,
+      "pos_errors": 4,
+      "text_errors": 0,
+      "both_errors": 2,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 927,
+        "total_tokens": 1962,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 933,
+        "total_tokens": 1968,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 929,
+        "total_tokens": 1964,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 929,
+        "total_tokens": 1964,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 932,
+        "total_tokens": 1967,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 927,
+        "total_tokens": 1962,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 925,
+        "total_tokens": 1960,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 939,
+        "total_tokens": 1974,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 21,
+      "correct": 6,
+      "incorrect": 15,
+      "accuracy_pct": 28.6,
+      "passed": false,
+      "first_error_move": 6,
+      "pos_errors": 8,
+      "text_errors": 0,
+      "both_errors": 7,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 929,
+        "total_tokens": 1964,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 21,
+      "correct": 20,
+      "incorrect": 1,
+      "accuracy_pct": 95.2,
+      "passed": false,
+      "first_error_move": 7,
+      "pos_errors": 1,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 926,
+        "total_tokens": 1961,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 927,
+        "total_tokens": 1962,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 927,
+        "total_tokens": 1962,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 21,
+      "correct": 17,
+      "incorrect": 4,
+      "accuracy_pct": 81.0,
+      "passed": false,
+      "first_error_move": 12,
+      "pos_errors": 0,
+      "text_errors": 4,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 934,
+        "total_tokens": 1969,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 21,
+      "correct": 18,
+      "incorrect": 3,
+      "accuracy_pct": 85.7,
+      "passed": false,
+      "first_error_move": 18,
+      "pos_errors": 1,
+      "text_errors": 1,
+      "both_errors": 1,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 926,
+        "total_tokens": 1961,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 925,
+        "total_tokens": 1960,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 929,
+        "total_tokens": 1964,
+        "model": "claude-sonnet-4-5-20250929",
+        "finish_reason": "end_turn"
+      }
+    }
+  ]
+}

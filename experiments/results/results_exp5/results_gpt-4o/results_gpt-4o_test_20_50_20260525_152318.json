@@ -1,0 +1,456 @@
+{
+  "experiment_file": "test_20_50.json",
+  "model_label": "model",
+  "model": "gpt-4o",
+  "temperature": 1,
+  "run_timestamp": "2026-05-25T15:23:18.370838",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 102,
+  "grand_correct": 26,
+  "grand_incorrect": 76,
+  "grand_accuracy": 25.5,
+  "avg_first_error_move": 1.0,
+  "avg_failures_per_failed_test": 38.0,
+  "token_usage": {
+    "total_prompt_tokens": 20580,
+    "total_completion_tokens": 18404,
+    "total_tokens": 38984,
+    "avg_prompt_tokens": 1029.0,
+    "avg_completion_tokens": 920.2,
+    "avg_total_tokens": 1949.2
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 1230,
+        "total_tokens": 2259,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 363,
+        "total_tokens": 1392,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 345,
+        "total_tokens": 1374,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 713,
+        "total_tokens": 1742,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 475,
+        "total_tokens": 1504,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 548,
+        "total_tokens": 1577,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 1793,
+        "total_tokens": 2822,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 1107,
+        "total_tokens": 2136,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 731,
+        "total_tokens": 1760,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 51,
+      "correct": 14,
+      "incorrect": 37,
+      "accuracy_pct": 27.5,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 3,
+      "gold_model": 3,
+      "traps_expected": 5,
+      "traps_model": 4,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "BLOCKED",
+        "OK",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "OUCH",
+        "OK",
+        "OUCH",
+        "OK",
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "Moving",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "BLOCKED",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "MOVING",
+        "MOVING",
+        "OK",
+        "MOVING",
+        "OK",
+        "MOVING",
+        "YIPEE",
+        "OK",
+        "MOVING",
+        "MOVING",
+        "MOVING",
+        "OK",
+        "MOVING",
+        "OUCH",
+        "MOVING",
+        "MOVING",
+        "YIPEE",
+        "MOVING",
+        "OUCH",
+        "MOVING",
+        "MOVING",
+        "MOVING",
+        "OUCH",
+        "YIPEE",
+        "MOVING",
+        "BLOCKED",
+        "MOVING",
+        "BLOCKED",
+        "MOVING",
+        "MOVING",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 1570,
+        "total_tokens": 2599,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 359,
+        "total_tokens": 1388,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 51,
+      "correct": 12,
+      "incorrect": 39,
+      "accuracy_pct": 23.5,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 1,
+      "gold_model": 5,
+      "traps_expected": 4,
+      "traps_model": 10,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OUCH",
+        "OUCH",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "BLOCKED",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "OUCH",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "BLOCKED",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OUCH",
+        "OK",
+        "OK",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 1878,
+        "total_tokens": 2907,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 571,
+        "total_tokens": 1600,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 608,
+        "total_tokens": 1637,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 575,
+        "total_tokens": 1604,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 1047,
+        "total_tokens": 2076,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 345,
+        "total_tokens": 1374,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 1310,
+        "total_tokens": 2339,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 1048,
+        "total_tokens": 2077,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 1788,
+        "total_tokens": 2817,
+        "model": "gpt-4o-2024-11-20",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

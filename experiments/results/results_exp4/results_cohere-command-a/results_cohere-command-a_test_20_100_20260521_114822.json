@@ -1,0 +1,382 @@
+{
+  "experiment_file": "test_20_100.json",
+  "model_label": "model",
+  "model": "cohere-command-a",
+  "temperature": 1,
+  "run_timestamp": "2026-05-21T11:48:22.216187",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 1616,
+  "grand_correct": 218,
+  "grand_incorrect": 1398,
+  "grand_accuracy": 13.5,
+  "avg_first_error_move": 7.06,
+  "avg_failures_per_failed_test": 87.38,
+  "grand_error_breakdown": {
+    "position_errors": 846,
+    "text_errors": 33,
+    "both_errors": 519,
+    "position_error_pct": 60.5,
+    "text_error_pct": 2.4,
+    "both_error_pct": 37.1
+  },
+  "token_usage": {
+    "total_prompt_tokens": 23231,
+    "total_completion_tokens": 129130,
+    "total_tokens": 152361,
+    "avg_prompt_tokens": 1161.5,
+    "avg_completion_tokens": 6456.5,
+    "avg_total_tokens": 7618.1
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1162,
+        "completion_tokens": 8190,
+        "total_tokens": 9352,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 101,
+      "correct": 26,
+      "incorrect": 75,
+      "accuracy_pct": 25.7,
+      "passed": false,
+      "first_error_move": 11,
+      "pos_errors": 43,
+      "text_errors": 3,
+      "both_errors": 29,
+      "metrics": {
+        "prompt_tokens": 1163,
+        "completion_tokens": 7505,
+        "total_tokens": 8668,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 101,
+      "correct": 7,
+      "incorrect": 94,
+      "accuracy_pct": 6.9,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 58,
+      "text_errors": 2,
+      "both_errors": 34,
+      "metrics": {
+        "prompt_tokens": 1165,
+        "completion_tokens": 5217,
+        "total_tokens": 6382,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 101,
+      "correct": 18,
+      "incorrect": 83,
+      "accuracy_pct": 17.8,
+      "passed": false,
+      "first_error_move": 12,
+      "pos_errors": 50,
+      "text_errors": 3,
+      "both_errors": 30,
+      "metrics": {
+        "prompt_tokens": 1160,
+        "completion_tokens": 5972,
+        "total_tokens": 7132,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 101,
+      "correct": 4,
+      "incorrect": 97,
+      "accuracy_pct": 4.0,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 50,
+      "text_errors": 1,
+      "both_errors": 46,
+      "metrics": {
+        "prompt_tokens": 1161,
+        "completion_tokens": 6381,
+        "total_tokens": 7542,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 101,
+      "correct": 9,
+      "incorrect": 92,
+      "accuracy_pct": 8.9,
+      "passed": false,
+      "first_error_move": 9,
+      "pos_errors": 59,
+      "text_errors": 0,
+      "both_errors": 33,
+      "metrics": {
+        "prompt_tokens": 1159,
+        "completion_tokens": 4959,
+        "total_tokens": 6118,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 101,
+      "correct": 3,
+      "incorrect": 98,
+      "accuracy_pct": 3.0,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 67,
+      "text_errors": 0,
+      "both_errors": 31,
+      "metrics": {
+        "prompt_tokens": 1162,
+        "completion_tokens": 7472,
+        "total_tokens": 8634,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 101,
+      "correct": 26,
+      "incorrect": 75,
+      "accuracy_pct": 25.7,
+      "passed": false,
+      "first_error_move": 4,
+      "pos_errors": 59,
+      "text_errors": 2,
+      "both_errors": 14,
+      "metrics": {
+        "prompt_tokens": 1163,
+        "completion_tokens": 6302,
+        "total_tokens": 7465,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 101,
+      "correct": 16,
+      "incorrect": 85,
+      "accuracy_pct": 15.8,
+      "passed": false,
+      "first_error_move": 9,
+      "pos_errors": 52,
+      "text_errors": 1,
+      "both_errors": 32,
+      "metrics": {
+        "prompt_tokens": 1157,
+        "completion_tokens": 6354,
+        "total_tokens": 7511,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 101,
+      "correct": 11,
+      "incorrect": 90,
+      "accuracy_pct": 10.9,
+      "passed": false,
+      "first_error_move": 4,
+      "pos_errors": 63,
+      "text_errors": 2,
+      "both_errors": 25,
+      "metrics": {
+        "prompt_tokens": 1164,
+        "completion_tokens": 4994,
+        "total_tokens": 6158,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1159,
+        "completion_tokens": 8190,
+        "total_tokens": 9349,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 12,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1161,
+        "completion_tokens": 8190,
+        "total_tokens": 9351,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 101,
+      "correct": 36,
+      "incorrect": 65,
+      "accuracy_pct": 35.6,
+      "passed": false,
+      "first_error_move": 25,
+      "pos_errors": 42,
+      "text_errors": 3,
+      "both_errors": 20,
+      "metrics": {
+        "prompt_tokens": 1162,
+        "completion_tokens": 4991,
+        "total_tokens": 6153,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 101,
+      "correct": 12,
+      "incorrect": 89,
+      "accuracy_pct": 11.9,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 53,
+      "text_errors": 6,
+      "both_errors": 30,
+      "metrics": {
+        "prompt_tokens": 1163,
+        "completion_tokens": 5118,
+        "total_tokens": 6281,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1162,
+        "completion_tokens": 8190,
+        "total_tokens": 9352,
+        "model": "cohere-command-a",
+        "finish_reason": "length"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 101,
+      "correct": 9,
+      "incorrect": 92,
+      "accuracy_pct": 8.9,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 67,
+      "text_errors": 3,
+      "both_errors": 22,
+      "metrics": {
+        "prompt_tokens": 1159,
+        "completion_tokens": 5988,
+        "total_tokens": 7147,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 101,
+      "correct": 18,
+      "incorrect": 83,
+      "accuracy_pct": 17.8,
+      "passed": false,
+      "first_error_move": 10,
+      "pos_errors": 50,
+      "text_errors": 0,
+      "both_errors": 33,
+      "metrics": {
+        "prompt_tokens": 1161,
+        "completion_tokens": 6964,
+        "total_tokens": 8125,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 101,
+      "correct": 10,
+      "incorrect": 91,
+      "accuracy_pct": 9.9,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 41,
+      "text_errors": 2,
+      "both_errors": 48,
+      "metrics": {
+        "prompt_tokens": 1165,
+        "completion_tokens": 3923,
+        "total_tokens": 5088,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 101,
+      "correct": 6,
+      "incorrect": 95,
+      "accuracy_pct": 5.9,
+      "passed": false,
+      "first_error_move": 6,
+      "pos_errors": 17,
+      "text_errors": 0,
+      "both_errors": 78,
+      "metrics": {
+        "prompt_tokens": 1164,
+        "completion_tokens": 7254,
+        "total_tokens": 8418,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 101,
+      "correct": 7,
+      "incorrect": 94,
+      "accuracy_pct": 6.9,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 75,
+      "text_errors": 5,
+      "both_errors": 14,
+      "metrics": {
+        "prompt_tokens": 1159,
+        "completion_tokens": 6976,
+        "total_tokens": 8135,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

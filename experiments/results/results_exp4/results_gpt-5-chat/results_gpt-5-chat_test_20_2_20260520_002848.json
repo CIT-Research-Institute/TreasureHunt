@@ -1,0 +1,414 @@
+{
+  "experiment_file": "test_20_2_new.json",
+  "model_label": "model-4",
+  "model": "gpt-5-chat",
+  "temperature": 1,
+  "run_timestamp": "2026-05-20T00:28:48.302725",
+  "total_tests": 20,
+  "perfect_tests": 17,
+  "failed_tests": 3,
+  "grand_total_moves": 60,
+  "grand_correct": 57,
+  "grand_incorrect": 3,
+  "grand_accuracy": 95.0,
+  "avg_first_error_move": 1.0,
+  "avg_failures_per_failed_test": 1.0,
+  "grand_error_breakdown": {
+    "position_errors": 1,
+    "text_errors": 1,
+    "both_errors": 1,
+    "position_error_pct": 33.3,
+    "text_error_pct": 33.3,
+    "both_error_pct": 33.3
+  },
+  "token_usage": {
+    "total_prompt_tokens": 17620,
+    "total_completion_tokens": 2833,
+    "total_tokens": 20453,
+    "avg_prompt_tokens": 881.0,
+    "avg_completion_tokens": 141.7,
+    "avg_total_tokens": 1022.6
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 141,
+        "total_tokens": 1022,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 145,
+        "total_tokens": 1026,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 141,
+        "total_tokens": 1022,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 141,
+        "total_tokens": 1022,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 141,
+        "total_tokens": 1022,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 141,
+        "total_tokens": 1022,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 143,
+        "total_tokens": 1024,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 141,
+        "total_tokens": 1022,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 142,
+        "total_tokens": 1023,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 141,
+        "total_tokens": 1022,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 3,
+      "correct": 2,
+      "incorrect": 1,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 1,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 141,
+        "total_tokens": 1022,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 142,
+        "total_tokens": 1023,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 141,
+        "total_tokens": 1022,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 143,
+        "total_tokens": 1024,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 141,
+        "total_tokens": 1022,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 141,
+        "total_tokens": 1022,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 141,
+        "total_tokens": 1022,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 141,
+        "total_tokens": 1022,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 3,
+      "correct": 2,
+      "incorrect": 1,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 1,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 142,
+        "total_tokens": 1023,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 3,
+      "correct": 2,
+      "incorrect": 1,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 0,
+      "pos_errors": 0,
+      "text_errors": 1,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 881,
+        "completion_tokens": 143,
+        "total_tokens": 1024,
+        "model": "gpt-5-chat-2025-10-03",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}
