@@ -1,6 +1,6 @@
-# Grid-Navigation Game Experiment
+# Experiments
 
-This section documents an experiment that uses a grid‑navigation game to measure how LLM precision degrades over long decision horizons.
+This section documents experiments:
 
 `power_model_tester.py`: this is the python source code used to run Experiments 1, 2, 3 and 5 for evaluation models except anthropic models.
 
