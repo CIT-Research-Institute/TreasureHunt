@@ -1,0 +1,246 @@
+{
+  "experiment_file": "test_20_100.json",
+  "model_label": "model-2",
+  "model": "model-router",
+  "temperature": 1,
+  "run_timestamp": "2026-05-26T18:55:55.043882",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 0,
+  "grand_correct": 0,
+  "grand_incorrect": 0,
+  "grand_accuracy": 0,
+  "avg_first_error_move": null,
+  "avg_failures_per_failed_test": null,
+  "token_usage": {
+    "total_prompt_tokens": 22320,
+    "total_completion_tokens": 744,
+    "total_tokens": 280478,
+    "avg_prompt_tokens": 1116.0,
+    "avg_completion_tokens": 37.2,
+    "avg_total_tokens": 14023.9
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 24,
+        "total_tokens": 16871,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 26,
+        "total_tokens": 11116,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 69,
+        "total_tokens": 11500,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 44,
+        "total_tokens": 12077,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 47,
+        "total_tokens": 11256,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 39,
+        "total_tokens": 14980,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 23,
+        "total_tokens": 17547,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 18,
+        "total_tokens": 13210,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 14,
+        "total_tokens": 15701,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 12,
+        "total_tokens": 18860,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 75,
+        "total_tokens": 17360,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 37,
+        "total_tokens": 10647,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 65,
+        "total_tokens": 13335,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 28,
+        "total_tokens": 13914,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 42,
+        "total_tokens": 16596,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 17,
+        "total_tokens": 11923,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 26,
+        "total_tokens": 12815,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 32,
+        "total_tokens": 12961,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 12,
+        "total_tokens": 11030,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1116,
+        "completion_tokens": 94,
+        "total_tokens": 16779,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

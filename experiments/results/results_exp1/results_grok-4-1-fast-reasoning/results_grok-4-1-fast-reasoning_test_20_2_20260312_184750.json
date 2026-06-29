@@ -1,0 +1,626 @@
+{
+  "experiment_file": "test_20_2.json",
+  "model_label": "model",
+  "model": "grok-4-1-fast-reasoning",
+  "temperature": 1,
+  "run_timestamp": "2026-03-12T18:47:50.853361",
+  "total_tests": 20,
+  "perfect_tests": 20,
+  "failed_tests": 0,
+  "grand_total_moves": 60,
+  "grand_correct": 60,
+  "grand_incorrect": 0,
+  "grand_accuracy": 100.0,
+  "avg_first_error_move": null,
+  "avg_failures_per_failed_test": null,
+  "token_usage": {
+    "total_prompt_tokens": 17360,
+    "total_completion_tokens": 1871,
+    "total_tokens": 33251,
+    "avg_prompt_tokens": 868.0,
+    "avg_completion_tokens": 93.5,
+    "avg_total_tokens": 1662.5
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 90,
+        "total_tokens": 1660,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 2,
+      "gold_model": 2,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "YIPEE",
+        "YIPEE",
+        "OUCH"
+      ],
+      "model_responses": [
+        "YIPEE",
+        "YIPEE",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 94,
+        "total_tokens": 1711,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 90,
+        "total_tokens": 1678,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 3,
+      "traps_model": 3,
+      "ground_truth": [
+        "OUCH",
+        "OUCH",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OUCH",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 90,
+        "total_tokens": 1657,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OUCH",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 147,
+        "total_tokens": 1686,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 90,
+        "total_tokens": 1720,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 92,
+        "total_tokens": 1566,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 90,
+        "total_tokens": 1644,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 91,
+        "total_tokens": 1557,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 90,
+        "total_tokens": 1645,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 91,
+        "total_tokens": 1699,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 91,
+        "total_tokens": 1667,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 90,
+        "total_tokens": 1637,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 92,
+        "total_tokens": 1626,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 90,
+        "total_tokens": 1673,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 90,
+        "total_tokens": 1775,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 90,
+        "total_tokens": 1718,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 90,
+        "total_tokens": 1577,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 91,
+        "total_tokens": 1614,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 868,
+        "completion_tokens": 92,
+        "total_tokens": 1741,
+        "model": "grok-4-1-fast-reasoning",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

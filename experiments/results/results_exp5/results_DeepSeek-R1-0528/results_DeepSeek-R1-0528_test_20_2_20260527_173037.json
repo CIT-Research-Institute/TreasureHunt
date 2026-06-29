@@ -1,0 +1,626 @@
+{
+  "experiment_file": "test_20_2.json",
+  "model_label": "model",
+  "model": "DeepSeek-R1-0528",
+  "temperature": 1,
+  "run_timestamp": "2026-05-27T17:30:37.862160",
+  "total_tests": 20,
+  "perfect_tests": 20,
+  "failed_tests": 0,
+  "grand_total_moves": 60,
+  "grand_correct": 60,
+  "grand_incorrect": 0,
+  "grand_accuracy": 100.0,
+  "avg_first_error_move": null,
+  "avg_failures_per_failed_test": null,
+  "token_usage": {
+    "total_prompt_tokens": 19260,
+    "total_completion_tokens": 34490,
+    "total_tokens": 53750,
+    "avg_prompt_tokens": 963.0,
+    "avg_completion_tokens": 1724.5,
+    "avg_total_tokens": 2687.5
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OUCH",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 2340,
+        "total_tokens": 3303,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 1524,
+        "total_tokens": 2487,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 1195,
+        "total_tokens": 2158,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "YIPEE",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "YIPEE",
+        "OK",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 2169,
+        "total_tokens": 3132,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 1372,
+        "total_tokens": 2335,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 2654,
+        "total_tokens": 3617,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 1358,
+        "total_tokens": 2321,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 1365,
+        "total_tokens": 2328,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 2021,
+        "total_tokens": 2984,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 1400,
+        "total_tokens": 2363,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 1937,
+        "total_tokens": 2900,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "YIPEE",
+        "OK",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "YIPEE",
+        "OK",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 1924,
+        "total_tokens": 2887,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OK",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 1555,
+        "total_tokens": 2518,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 1263,
+        "total_tokens": 2226,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 1516,
+        "total_tokens": 2479,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 2060,
+        "total_tokens": 3023,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "YIPEE",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OUCH",
+        "YIPEE",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 2009,
+        "total_tokens": 2972,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 2116,
+        "total_tokens": 3079,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 1144,
+        "total_tokens": 2107,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 963,
+        "completion_tokens": 1568,
+        "total_tokens": 2531,
+        "model": "deepseek-r1",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

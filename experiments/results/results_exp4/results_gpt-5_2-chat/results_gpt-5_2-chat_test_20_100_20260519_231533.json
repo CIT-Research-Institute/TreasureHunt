@@ -1,0 +1,414 @@
+{
+  "experiment_file": "test_20_100_new.json",
+  "model_label": "model-2",
+  "model": "gpt-5.2-chat",
+  "temperature": 1,
+  "run_timestamp": "2026-05-19T23:15:33.820984",
+  "total_tests": 20,
+  "perfect_tests": 10,
+  "failed_tests": 10,
+  "grand_total_moves": 2020,
+  "grand_correct": 1294,
+  "grand_incorrect": 726,
+  "grand_accuracy": 64.1,
+  "avg_first_error_move": 15.8,
+  "avg_failures_per_failed_test": 72.6,
+  "grand_error_breakdown": {
+    "position_errors": 229,
+    "text_errors": 14,
+    "both_errors": 483,
+    "position_error_pct": 31.5,
+    "text_error_pct": 1.9,
+    "both_error_pct": 66.5
+  },
+  "token_usage": {
+    "total_prompt_tokens": 21520,
+    "total_completion_tokens": 57387,
+    "total_tokens": 78907,
+    "avg_prompt_tokens": 1076.0,
+    "avg_completion_tokens": 2869.3,
+    "avg_total_tokens": 3945.3
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 101,
+      "correct": 1,
+      "incorrect": 100,
+      "accuracy_pct": 1.0,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 100,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 114,
+        "total_tokens": 1190,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 101,
+      "correct": 101,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 4012,
+        "total_tokens": 5088,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 101,
+      "correct": 1,
+      "incorrect": 100,
+      "accuracy_pct": 1.0,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 100,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 114,
+        "total_tokens": 1190,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 101,
+      "correct": 101,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 3831,
+        "total_tokens": 4907,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 101,
+      "correct": 0,
+      "incorrect": 101,
+      "accuracy_pct": 0.0,
+      "passed": false,
+      "first_error_move": 0,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 101,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 96,
+        "total_tokens": 1172,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 101,
+      "correct": 101,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 3952,
+        "total_tokens": 5028,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 101,
+      "correct": 63,
+      "incorrect": 38,
+      "accuracy_pct": 62.4,
+      "passed": false,
+      "first_error_move": 25,
+      "pos_errors": 20,
+      "text_errors": 3,
+      "both_errors": 15,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 2675,
+        "total_tokens": 3751,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 101,
+      "correct": 60,
+      "incorrect": 41,
+      "accuracy_pct": 59.4,
+      "passed": false,
+      "first_error_move": 58,
+      "pos_errors": 33,
+      "text_errors": 2,
+      "both_errors": 6,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 2719,
+        "total_tokens": 3795,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 101,
+      "correct": 12,
+      "incorrect": 89,
+      "accuracy_pct": 11.9,
+      "passed": false,
+      "first_error_move": 10,
+      "pos_errors": 62,
+      "text_errors": 7,
+      "both_errors": 20,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 3796,
+        "total_tokens": 4872,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 101,
+      "correct": 17,
+      "incorrect": 84,
+      "accuracy_pct": 16.8,
+      "passed": false,
+      "first_error_move": 15,
+      "pos_errors": 61,
+      "text_errors": 0,
+      "both_errors": 23,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 2733,
+        "total_tokens": 3809,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 101,
+      "correct": 101,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 3892,
+        "total_tokens": 4968,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 101,
+      "correct": 101,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 3695,
+        "total_tokens": 4771,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 101,
+      "correct": 101,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 3817,
+        "total_tokens": 4893,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 101,
+      "correct": 30,
+      "incorrect": 71,
+      "accuracy_pct": 29.7,
+      "passed": false,
+      "first_error_move": 29,
+      "pos_errors": 53,
+      "text_errors": 1,
+      "both_errors": 17,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 2681,
+        "total_tokens": 3757,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 101,
+      "correct": 101,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 3700,
+        "total_tokens": 4776,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 101,
+      "correct": 0,
+      "incorrect": 101,
+      "accuracy_pct": 0.0,
+      "passed": false,
+      "first_error_move": 0,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 101,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 983,
+        "total_tokens": 2059,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 101,
+      "correct": 101,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 3818,
+        "total_tokens": 4894,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 101,
+      "correct": 101,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 3821,
+        "total_tokens": 4897,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 101,
+      "correct": 100,
+      "incorrect": 1,
+      "accuracy_pct": 99.0,
+      "passed": false,
+      "first_error_move": 19,
+      "pos_errors": 0,
+      "text_errors": 1,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 3062,
+        "total_tokens": 4138,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 101,
+      "correct": 101,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1076,
+        "completion_tokens": 3876,
+        "total_tokens": 4952,
+        "model": "gpt-5.2-chat-latest",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

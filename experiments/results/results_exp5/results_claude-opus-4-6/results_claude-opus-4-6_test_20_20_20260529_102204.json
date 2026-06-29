@@ -1,0 +1,411 @@
+{
+  "experiment_file": "test_20_20.json",
+  "model_label": "model",
+  "model": "claude-opus-4-6",
+  "temperature": 1,
+  "run_timestamp": "2026-05-29T10:22:04.671173",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 63,
+  "grand_correct": 36,
+  "grand_incorrect": 27,
+  "grand_accuracy": 57.1,
+  "avg_first_error_move": 5.67,
+  "avg_failures_per_failed_test": 9.0,
+  "token_usage": {
+    "total_prompt_tokens": 21980,
+    "total_completion_tokens": 20233,
+    "total_tokens": 42213,
+    "avg_prompt_tokens": 1099.0,
+    "avg_completion_tokens": 1011.6,
+    "avg_total_tokens": 2110.7
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 2,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 21,
+      "correct": 10,
+      "incorrect": 11,
+      "accuracy_pct": 47.6,
+      "passed": false,
+      "first_error_move": 3,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "MOVING",
+        "BLOCKED",
+        "YIPEE",
+        "BLOCKED",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "MOVING",
+        "YIPEE",
+        "OK",
+        "MOVING",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "MOVING",
+        "YIPEE",
+        "OK",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 942,
+        "total_tokens": 2041,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 4,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 5,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 6,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 7,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 8,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 9,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 10,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 21,
+      "correct": 15,
+      "incorrect": 6,
+      "accuracy_pct": 71.4,
+      "passed": false,
+      "first_error_move": 12,
+      "gold_expected": 3,
+      "gold_model": 2,
+      "traps_expected": 3,
+      "traps_model": 4,
+      "ground_truth": [
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "OUCH",
+        "OK",
+        "Moving",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "MOVING",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "MOVING",
+        "OUCH",
+        "OK",
+        "MOVING",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "OUCH",
+        "OK",
+        "MOVING",
+        "YIPEE",
+        "OK",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 946,
+        "total_tokens": 2045,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 12,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 13,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 14,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 21,
+      "correct": 11,
+      "incorrect": 10,
+      "accuracy_pct": 52.4,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 0,
+      "gold_model": 2,
+      "traps_expected": 2,
+      "traps_model": 3,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "MOVING",
+        "YIPEE",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 937,
+        "total_tokens": 2036,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 16,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 17,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 18,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 20,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1099,
+        "completion_tokens": 1024,
+        "total_tokens": 2123,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    }
+  ]
+}

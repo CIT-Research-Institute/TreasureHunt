@@ -1,0 +1,414 @@
+{
+  "experiment_file": "test_20_20_new.json",
+  "model_label": "model-1",
+  "model": "gpt-5.3-chat",
+  "temperature": 1,
+  "run_timestamp": "2026-05-20T00:08:55.084394",
+  "total_tests": 20,
+  "perfect_tests": 20,
+  "failed_tests": 0,
+  "grand_total_moves": 420,
+  "grand_correct": 420,
+  "grand_incorrect": 0,
+  "grand_accuracy": 100.0,
+  "avg_first_error_move": null,
+  "avg_failures_per_failed_test": null,
+  "grand_error_breakdown": {
+    "position_errors": 0,
+    "text_errors": 0,
+    "both_errors": 0,
+    "position_error_pct": 0,
+    "text_error_pct": 0,
+    "both_error_pct": 0
+  },
+  "token_usage": {
+    "total_prompt_tokens": 18320,
+    "total_completion_tokens": 30095,
+    "total_tokens": 48415,
+    "avg_prompt_tokens": 916.0,
+    "avg_completion_tokens": 1504.8,
+    "avg_total_tokens": 2420.8
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1455,
+        "total_tokens": 2371,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1577,
+        "total_tokens": 2493,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1583,
+        "total_tokens": 2499,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1406,
+        "total_tokens": 2322,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1514,
+        "total_tokens": 2430,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1279,
+        "total_tokens": 2195,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1342,
+        "total_tokens": 2258,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1514,
+        "total_tokens": 2430,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1580,
+        "total_tokens": 2496,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1578,
+        "total_tokens": 2494,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1512,
+        "total_tokens": 2428,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1589,
+        "total_tokens": 2505,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1449,
+        "total_tokens": 2365,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1577,
+        "total_tokens": 2493,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1511,
+        "total_tokens": 2427,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1512,
+        "total_tokens": 2428,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1577,
+        "total_tokens": 2493,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1512,
+        "total_tokens": 2428,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1512,
+        "total_tokens": 2428,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 916,
+        "completion_tokens": 1516,
+        "total_tokens": 2432,
+        "model": "gpt-5.3-chat-2026-03-03",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

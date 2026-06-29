@@ -1,0 +1,746 @@
+{
+  "experiment_file": "test_20_5.json",
+  "model_label": "model",
+  "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+  "temperature": 1,
+  "run_timestamp": "2026-05-28T16:15:37.300718",
+  "total_tests": 20,
+  "perfect_tests": 1,
+  "failed_tests": 19,
+  "grand_total_moves": 120,
+  "grand_correct": 78,
+  "grand_incorrect": 42,
+  "grand_accuracy": 65.0,
+  "avg_first_error_move": 2.53,
+  "avg_failures_per_failed_test": 2.21,
+  "token_usage": {
+    "total_prompt_tokens": 18960,
+    "total_completion_tokens": 5068,
+    "total_tokens": 24028,
+    "avg_prompt_tokens": 948.0,
+    "avg_completion_tokens": 253.4,
+    "avg_total_tokens": 1201.4
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 2,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OUCH",
+        "YIPEE",
+        "YIPEE",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 263,
+        "total_tokens": 1211,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 4,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 3,
+      "ground_truth": [
+        "OUCH",
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OUCH",
+        "OK",
+        "MOVING",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 248,
+        "total_tokens": 1196,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 3,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 247,
+        "total_tokens": 1195,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 3,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 250,
+        "total_tokens": 1198,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 6,
+      "correct": 3,
+      "incorrect": 3,
+      "accuracy_pct": 50.0,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OUCH",
+        "YIPEE",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 251,
+        "total_tokens": 1199,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE",
+        "BLOCKED",
+        "OK",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "YIPEE",
+        "BLOCKED",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 251,
+        "total_tokens": 1199,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 3,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "OK",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 263,
+        "total_tokens": 1211,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 6,
+      "correct": 3,
+      "incorrect": 3,
+      "accuracy_pct": 50.0,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 0,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 4,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "Moving",
+        "OUCH",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OUCH",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 256,
+        "total_tokens": 1204,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 3,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "OK",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 262,
+        "total_tokens": 1210,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 6,
+      "correct": 3,
+      "incorrect": 3,
+      "accuracy_pct": 50.0,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "BLOCKED",
+        "OK"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 247,
+        "total_tokens": 1195,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 6,
+      "correct": 5,
+      "incorrect": 1,
+      "accuracy_pct": 83.3,
+      "passed": false,
+      "first_error_move": 5,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 250,
+        "total_tokens": 1198,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 6,
+      "correct": 5,
+      "incorrect": 1,
+      "accuracy_pct": 83.3,
+      "passed": false,
+      "first_error_move": 4,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "MOVING",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 251,
+        "total_tokens": 1199,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 6,
+      "correct": 3,
+      "incorrect": 3,
+      "accuracy_pct": 50.0,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 4,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "OUCH",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 247,
+        "total_tokens": 1195,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 3,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 260,
+        "total_tokens": 1208,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 6,
+      "correct": 5,
+      "incorrect": 1,
+      "accuracy_pct": 83.3,
+      "passed": false,
+      "first_error_move": 3,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 250,
+        "total_tokens": 1198,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 6,
+      "correct": 2,
+      "incorrect": 4,
+      "accuracy_pct": 33.3,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 247,
+        "total_tokens": 1195,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OUCH",
+        "OK",
+        "Moving",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OUCH",
+        "OK",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 260,
+        "total_tokens": 1208,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 6,
+      "correct": 3,
+      "incorrect": 3,
+      "accuracy_pct": 50.0,
+      "passed": false,
+      "first_error_move": 3,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "BLOCKED",
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 251,
+        "total_tokens": 1199,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 251,
+        "total_tokens": 1199,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 4,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 3,
+      "traps_model": 4,
+      "ground_truth": [
+        "OUCH",
+        "OUCH",
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OUCH",
+        "OUCH",
+        "YIPEE",
+        "OUCH",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 948,
+        "completion_tokens": 263,
+        "total_tokens": 1211,
+        "model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

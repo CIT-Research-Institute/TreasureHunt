@@ -1,0 +1,626 @@
+{
+  "experiment_file": "test_20_2.json",
+  "model_label": "model",
+  "model": "o3-mini",
+  "temperature": 1,
+  "run_timestamp": "2026-04-08T23:48:10.171735",
+  "total_tests": 20,
+  "perfect_tests": 19,
+  "failed_tests": 1,
+  "grand_total_moves": 60,
+  "grand_correct": 59,
+  "grand_incorrect": 1,
+  "grand_accuracy": 98.3,
+  "avg_first_error_move": 2.0,
+  "avg_failures_per_failed_test": 1.0,
+  "token_usage": {
+    "total_prompt_tokens": 18060,
+    "total_completion_tokens": 39749,
+    "total_tokens": 57809,
+    "avg_prompt_tokens": 903.0,
+    "avg_completion_tokens": 1987.5,
+    "avg_total_tokens": 2890.4
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OK",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 1692,
+        "total_tokens": 2595,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OUCH",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OUCH",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 2138,
+        "total_tokens": 3041,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "YIPEE",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OUCH",
+        "YIPEE",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 1346,
+        "total_tokens": 2249,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OK",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 1831,
+        "total_tokens": 2734,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "OUCH",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OUCH",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 1275,
+        "total_tokens": 2178,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 2214,
+        "total_tokens": 3117,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 1865,
+        "total_tokens": 2768,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 1745,
+        "total_tokens": 2648,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 3161,
+        "total_tokens": 4064,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OK",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 2367,
+        "total_tokens": 3270,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "YIPEE",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "YIPEE",
+        "OK",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 2106,
+        "total_tokens": 3009,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 2412,
+        "total_tokens": 3315,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 1833,
+        "total_tokens": 2736,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 3,
+      "correct": 2,
+      "incorrect": 1,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 2151,
+        "total_tokens": 3054,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 2288,
+        "total_tokens": 3191,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 1781,
+        "total_tokens": 2684,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 1526,
+        "total_tokens": 2429,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 2180,
+        "total_tokens": 3083,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 2265,
+        "total_tokens": 3168,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 903,
+        "completion_tokens": 1573,
+        "total_tokens": 2476,
+        "model": "o3-mini-2025-01-31",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

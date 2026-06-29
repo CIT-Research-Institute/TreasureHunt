@@ -1,0 +1,719 @@
+{
+  "experiment_file": "test_20_5.json",
+  "model_label": "model",
+  "model": "cohere-command-a",
+  "temperature": 1,
+  "run_timestamp": "2026-04-09T18:15:55.766225",
+  "total_tests": 20,
+  "perfect_tests": 1,
+  "failed_tests": 19,
+  "grand_total_moves": 114,
+  "grand_correct": 58,
+  "grand_incorrect": 56,
+  "grand_accuracy": 50.9,
+  "avg_first_error_move": 1.94,
+  "avg_failures_per_failed_test": 3.11,
+  "token_usage": {
+    "total_prompt_tokens": 19961,
+    "total_completion_tokens": 6270,
+    "total_tokens": 26231,
+    "avg_prompt_tokens": 998.0,
+    "avg_completion_tokens": 313.5,
+    "avg_total_tokens": 1311.5
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 6,
+      "correct": 2,
+      "incorrect": 4,
+      "accuracy_pct": 33.3,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK",
+        "Moving",
+        "OK",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "MOVING",
+        "OK",
+        "MOVING",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 997,
+        "completion_tokens": 316,
+        "total_tokens": 1313,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 997,
+        "completion_tokens": 329,
+        "total_tokens": 1326,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 6,
+      "correct": 2,
+      "incorrect": 4,
+      "accuracy_pct": 33.3,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 5,
+      "traps_model": 1,
+      "ground_truth": [
+        "YIPEE",
+        "OUCH",
+        "OUCH",
+        "OUCH",
+        "OUCH",
+        "OUCH"
+      ],
+      "model_responses": [
+        "YIPEE",
+        "MOVING",
+        "OUCH",
+        "OK",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 1001,
+        "completion_tokens": 269,
+        "total_tokens": 1270,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 3,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "YIPEE",
+        "MOVING",
+        "MOVING",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 997,
+        "completion_tokens": 318,
+        "total_tokens": 1315,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1001,
+        "completion_tokens": 316,
+        "total_tokens": 1317,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OK",
+        "YIPEE",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "OUCH",
+        "YIPEE",
+        "MOVING",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 996,
+        "completion_tokens": 318,
+        "total_tokens": 1314,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "Moving",
+        "OUCH",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "MOVING",
+        "BLOCKED",
+        "OUCH",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 1001,
+        "completion_tokens": 321,
+        "total_tokens": 1322,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 4,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OK",
+        "Moving",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "OK",
+        "MOVING",
+        "MOVING",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 995,
+        "completion_tokens": 315,
+        "total_tokens": 1310,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OK",
+        "Moving",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "MOVING",
+        "MOVING",
+        "MOVING",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 997,
+        "completion_tokens": 317,
+        "total_tokens": 1314,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 6,
+      "correct": 2,
+      "incorrect": 4,
+      "accuracy_pct": 33.3,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 1,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "Moving",
+        "YIPEE",
+        "OK",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OUCH",
+        "MOVING",
+        "OK",
+        "YIPEE",
+        "BLOCKED",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 997,
+        "completion_tokens": 318,
+        "total_tokens": 1315,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 6,
+      "correct": 1,
+      "incorrect": 5,
+      "accuracy_pct": 16.7,
+      "passed": false,
+      "first_error_move": 0,
+      "gold_expected": 0,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 1,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "Moving",
+        "OK",
+        "Moving",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "MOVING",
+        "YIPEE",
+        "OUCH",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 999,
+        "completion_tokens": 319,
+        "total_tokens": 1318,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 6,
+      "correct": 3,
+      "incorrect": 3,
+      "accuracy_pct": 50.0,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK",
+        "Moving",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "MOVING",
+        "MOVING",
+        "OUCH",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 996,
+        "completion_tokens": 317,
+        "total_tokens": 1313,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 6,
+      "correct": 3,
+      "incorrect": 3,
+      "accuracy_pct": 50.0,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 1,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OK",
+        "Moving",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "MOVING",
+        "MOVING",
+        "MOVING",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 999,
+        "completion_tokens": 317,
+        "total_tokens": 1316,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 6,
+      "correct": 3,
+      "incorrect": 3,
+      "accuracy_pct": 50.0,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK",
+        "Moving",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "MOVING",
+        "OK",
+        "MOVING",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 997,
+        "completion_tokens": 316,
+        "total_tokens": 1313,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 6,
+      "correct": 2,
+      "incorrect": 4,
+      "accuracy_pct": 33.3,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 1,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "Moving",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OUCH",
+        "MOVING",
+        "OK",
+        "OK",
+        "OUCH",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 1002,
+        "completion_tokens": 316,
+        "total_tokens": 1318,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 6,
+      "correct": 1,
+      "incorrect": 5,
+      "accuracy_pct": 16.7,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OK",
+        "Moving",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "BLOCKED",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 996,
+        "completion_tokens": 321,
+        "total_tokens": 1317,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 6,
+      "correct": 3,
+      "incorrect": 3,
+      "accuracy_pct": 50.0,
+      "passed": false,
+      "first_error_move": 3,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 2,
+      "ground_truth": [
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "Moving",
+        "OK"
+      ],
+      "model_responses": [
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "MOVING",
+        "OUCH",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 999,
+        "completion_tokens": 318,
+        "total_tokens": 1317,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 6,
+      "correct": 3,
+      "incorrect": 3,
+      "accuracy_pct": 50.0,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "OK",
+        "Moving",
+        "OK",
+        "Moving"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "MOVING",
+        "MOVING",
+        "MOVING",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 996,
+        "completion_tokens": 318,
+        "total_tokens": 1314,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 6,
+      "correct": 3,
+      "incorrect": 3,
+      "accuracy_pct": 50.0,
+      "passed": false,
+      "first_error_move": 3,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "BLOCKED",
+        "OK",
+        "Moving",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "BLOCKED",
+        "MOVING",
+        "BLOCKED",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 1001,
+        "completion_tokens": 323,
+        "total_tokens": 1324,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 4,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 3,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "OUCH",
+        "OK",
+        "Moving",
+        "BLOCKED",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OUCH",
+        "OK",
+        "MOVING",
+        "MOVING"
+      ],
+      "metrics": {
+        "prompt_tokens": 997,
+        "completion_tokens": 268,
+        "total_tokens": 1265,
+        "model": "cohere-command-a",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

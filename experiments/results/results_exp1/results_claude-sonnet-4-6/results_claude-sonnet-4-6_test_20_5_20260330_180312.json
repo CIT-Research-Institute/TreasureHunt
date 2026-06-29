@@ -1,0 +1,496 @@
+{
+  "experiment_file": "test_20_5.json",
+  "model_label": "model",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "run_timestamp": "2026-03-30T18:03:12.633943",
+  "total_tests": 20,
+  "perfect_tests": 9,
+  "failed_tests": 11,
+  "grand_total_moves": 60,
+  "grand_correct": 58,
+  "grand_incorrect": 2,
+  "grand_accuracy": 96.7,
+  "avg_first_error_move": 1.0,
+  "avg_failures_per_failed_test": 2.0,
+  "token_usage": {
+    "total_prompt_tokens": 20120,
+    "total_completion_tokens": 6642,
+    "total_tokens": 26762,
+    "avg_prompt_tokens": 1006.0,
+    "avg_completion_tokens": 332.1,
+    "avg_total_tokens": 1338.1
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 277,
+        "total_tokens": 1283,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 2,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 481,
+        "total_tokens": 1487,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 3,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 403,
+        "total_tokens": 1409,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 2,
+      "gold_model": 2,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 188,
+        "total_tokens": 1194,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "OUCH",
+        "OK",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OK",
+        "OUCH",
+        "OK",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 187,
+        "total_tokens": 1193,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 181,
+        "total_tokens": 1187,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 7,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 462,
+        "total_tokens": 1468,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 8,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 395,
+        "total_tokens": 1401,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 9,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 463,
+        "total_tokens": 1469,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 10,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 447,
+        "total_tokens": 1453,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 182,
+        "total_tokens": 1188,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 185,
+        "total_tokens": 1191,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 2,
+      "gold_model": 2,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 186,
+        "total_tokens": 1192,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 14,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 546,
+        "total_tokens": 1552,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 186,
+        "total_tokens": 1192,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 16,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 433,
+        "total_tokens": 1439,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OUCH",
+        "YIPEE",
+        "BLOCKED",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OUCH",
+        "YIPEE",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 187,
+        "total_tokens": 1193,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 180,
+        "total_tokens": 1186,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 451,
+        "total_tokens": 1457,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 20,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1006,
+        "completion_tokens": 622,
+        "total_tokens": 1628,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    }
+  ]
+}

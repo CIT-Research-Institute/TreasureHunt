@@ -1,0 +1,746 @@
+{
+  "experiment_file": "test_20_5.json",
+  "model_label": "model-5",
+  "model": "gpt-4o",
+  "temperature": 1,
+  "run_timestamp": "2026-03-06T18:27:41.623163",
+  "total_tests": 20,
+  "perfect_tests": 12,
+  "failed_tests": 8,
+  "grand_total_moves": 120,
+  "grand_correct": 105,
+  "grand_incorrect": 15,
+  "grand_accuracy": 87.5,
+  "avg_first_error_move": 2.38,
+  "avg_failures_per_failed_test": 1.88,
+  "token_usage": {
+    "total_prompt_tokens": 17740,
+    "total_completion_tokens": 5509,
+    "total_tokens": 23249,
+    "avg_prompt_tokens": 887.0,
+    "avg_completion_tokens": 275.4,
+    "avg_total_tokens": 1162.5
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 274,
+        "total_tokens": 1161,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 0,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 3,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "BLOCKED",
+        "OUCH",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OUCH",
+        "YIPEE",
+        "OUCH",
+        "BLOCKED",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 236,
+        "total_tokens": 1123,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 277,
+        "total_tokens": 1164,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 2,
+      "gold_model": 2,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 278,
+        "total_tokens": 1165,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 6,
+      "correct": 5,
+      "incorrect": 1,
+      "accuracy_pct": 83.3,
+      "passed": false,
+      "first_error_move": 4,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 3,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "OUCH",
+        "OK",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OK",
+        "OUCH",
+        "OK",
+        "OUCH",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 276,
+        "total_tokens": 1163,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 275,
+        "total_tokens": 1162,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 6,
+      "correct": 5,
+      "incorrect": 1,
+      "accuracy_pct": 83.3,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 274,
+        "total_tokens": 1161,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 274,
+        "total_tokens": 1161,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "OK",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 275,
+        "total_tokens": 1162,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 274,
+        "total_tokens": 1161,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 6,
+      "correct": 5,
+      "incorrect": 1,
+      "accuracy_pct": 83.3,
+      "passed": false,
+      "first_error_move": 3,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 274,
+        "total_tokens": 1161,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 278,
+        "total_tokens": 1165,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 2,
+      "gold_model": 2,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 278,
+        "total_tokens": 1165,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 6,
+      "correct": 2,
+      "incorrect": 4,
+      "accuracy_pct": 33.3,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OUCH",
+        "BLOCKED",
+        "OUCH",
+        "OK",
+        "BLOCKED",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 276,
+        "total_tokens": 1163,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 6,
+      "correct": 5,
+      "incorrect": 1,
+      "accuracy_pct": 83.3,
+      "passed": false,
+      "first_error_move": 5,
+      "gold_expected": 1,
+      "gold_model": 2,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 278,
+        "total_tokens": 1165,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 6,
+      "correct": 5,
+      "incorrect": 1,
+      "accuracy_pct": 83.3,
+      "passed": false,
+      "first_error_move": 3,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "BLOCKED",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 276,
+        "total_tokens": 1163,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 6,
+      "correct": 2,
+      "incorrect": 4,
+      "accuracy_pct": 33.3,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OUCH",
+        "YIPEE",
+        "BLOCKED",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "BLOCKED",
+        "BLOCKED",
+        "OUCH",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 278,
+        "total_tokens": 1165,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 274,
+        "total_tokens": 1161,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "OK"
+      ],
+      "model_responses": [
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 278,
+        "total_tokens": 1165,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 2,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 887,
+        "completion_tokens": 306,
+        "total_tokens": 1193,
+        "model": "gpt-4o-2024-08-06",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

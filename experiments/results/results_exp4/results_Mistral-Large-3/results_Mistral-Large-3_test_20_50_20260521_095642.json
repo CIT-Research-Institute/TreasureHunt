@@ -1,0 +1,414 @@
+{
+  "experiment_file": "test_20_50.json",
+  "model_label": "model",
+  "model": "Mistral-Large-3",
+  "temperature": 1,
+  "run_timestamp": "2026-05-21T09:56:42.851954",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 1020,
+  "grand_correct": 304,
+  "grand_incorrect": 716,
+  "grand_accuracy": 29.8,
+  "avg_first_error_move": 7.25,
+  "avg_failures_per_failed_test": 35.8,
+  "grand_error_breakdown": {
+    "position_errors": 440,
+    "text_errors": 43,
+    "both_errors": 233,
+    "position_error_pct": 61.5,
+    "text_error_pct": 6.0,
+    "both_error_pct": 32.5
+  },
+  "token_usage": {
+    "total_prompt_tokens": 20598,
+    "total_completion_tokens": 42667,
+    "total_tokens": 63265,
+    "avg_prompt_tokens": 1029.9,
+    "avg_completion_tokens": 2133.3,
+    "avg_total_tokens": 3163.2
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 51,
+      "correct": 16,
+      "incorrect": 35,
+      "accuracy_pct": 31.4,
+      "passed": false,
+      "first_error_move": 11,
+      "pos_errors": 18,
+      "text_errors": 5,
+      "both_errors": 12,
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 2139,
+        "total_tokens": 3168,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 51,
+      "correct": 8,
+      "incorrect": 43,
+      "accuracy_pct": 15.7,
+      "passed": false,
+      "first_error_move": 8,
+      "pos_errors": 34,
+      "text_errors": 0,
+      "both_errors": 9,
+      "metrics": {
+        "prompt_tokens": 1028,
+        "completion_tokens": 2201,
+        "total_tokens": 3229,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 51,
+      "correct": 3,
+      "incorrect": 48,
+      "accuracy_pct": 5.9,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 31,
+      "text_errors": 0,
+      "both_errors": 17,
+      "metrics": {
+        "prompt_tokens": 1031,
+        "completion_tokens": 2109,
+        "total_tokens": 3140,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 51,
+      "correct": 6,
+      "incorrect": 45,
+      "accuracy_pct": 11.8,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 31,
+      "text_errors": 2,
+      "both_errors": 12,
+      "metrics": {
+        "prompt_tokens": 1025,
+        "completion_tokens": 2094,
+        "total_tokens": 3119,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 51,
+      "correct": 4,
+      "incorrect": 47,
+      "accuracy_pct": 7.8,
+      "passed": false,
+      "first_error_move": 4,
+      "pos_errors": 34,
+      "text_errors": 1,
+      "both_errors": 12,
+      "metrics": {
+        "prompt_tokens": 1028,
+        "completion_tokens": 2166,
+        "total_tokens": 3194,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 51,
+      "correct": 3,
+      "incorrect": 48,
+      "accuracy_pct": 5.9,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 32,
+      "text_errors": 1,
+      "both_errors": 15,
+      "metrics": {
+        "prompt_tokens": 1030,
+        "completion_tokens": 2253,
+        "total_tokens": 3283,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 51,
+      "correct": 15,
+      "incorrect": 36,
+      "accuracy_pct": 29.4,
+      "passed": false,
+      "first_error_move": 12,
+      "pos_errors": 28,
+      "text_errors": 1,
+      "both_errors": 7,
+      "metrics": {
+        "prompt_tokens": 1034,
+        "completion_tokens": 2331,
+        "total_tokens": 3365,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 51,
+      "correct": 30,
+      "incorrect": 21,
+      "accuracy_pct": 58.8,
+      "passed": false,
+      "first_error_move": 11,
+      "pos_errors": 10,
+      "text_errors": 3,
+      "both_errors": 8,
+      "metrics": {
+        "prompt_tokens": 1028,
+        "completion_tokens": 2000,
+        "total_tokens": 3028,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 51,
+      "correct": 27,
+      "incorrect": 24,
+      "accuracy_pct": 52.9,
+      "passed": false,
+      "first_error_move": 14,
+      "pos_errors": 12,
+      "text_errors": 3,
+      "both_errors": 9,
+      "metrics": {
+        "prompt_tokens": 1032,
+        "completion_tokens": 2056,
+        "total_tokens": 3088,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 51,
+      "correct": 16,
+      "incorrect": 35,
+      "accuracy_pct": 31.4,
+      "passed": false,
+      "first_error_move": 16,
+      "pos_errors": 25,
+      "text_errors": 1,
+      "both_errors": 9,
+      "metrics": {
+        "prompt_tokens": 1031,
+        "completion_tokens": 2077,
+        "total_tokens": 3108,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 51,
+      "correct": 11,
+      "incorrect": 40,
+      "accuracy_pct": 21.6,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 24,
+      "text_errors": 1,
+      "both_errors": 15,
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 2139,
+        "total_tokens": 3168,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 51,
+      "correct": 21,
+      "incorrect": 30,
+      "accuracy_pct": 41.2,
+      "passed": false,
+      "first_error_move": 14,
+      "pos_errors": 15,
+      "text_errors": 5,
+      "both_errors": 10,
+      "metrics": {
+        "prompt_tokens": 1032,
+        "completion_tokens": 2066,
+        "total_tokens": 3098,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 51,
+      "correct": 21,
+      "incorrect": 30,
+      "accuracy_pct": 41.2,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 18,
+      "text_errors": 3,
+      "both_errors": 9,
+      "metrics": {
+        "prompt_tokens": 1031,
+        "completion_tokens": 2100,
+        "total_tokens": 3131,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 51,
+      "correct": 32,
+      "incorrect": 19,
+      "accuracy_pct": 62.7,
+      "passed": false,
+      "first_error_move": 7,
+      "pos_errors": 7,
+      "text_errors": 2,
+      "both_errors": 10,
+      "metrics": {
+        "prompt_tokens": 1034,
+        "completion_tokens": 2067,
+        "total_tokens": 3101,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 51,
+      "correct": 18,
+      "incorrect": 33,
+      "accuracy_pct": 35.3,
+      "passed": false,
+      "first_error_move": 13,
+      "pos_errors": 24,
+      "text_errors": 0,
+      "both_errors": 9,
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 2088,
+        "total_tokens": 3117,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 51,
+      "correct": 5,
+      "incorrect": 46,
+      "accuracy_pct": 9.8,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 22,
+      "text_errors": 3,
+      "both_errors": 21,
+      "metrics": {
+        "prompt_tokens": 1032,
+        "completion_tokens": 2197,
+        "total_tokens": 3229,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 51,
+      "correct": 12,
+      "incorrect": 39,
+      "accuracy_pct": 23.5,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 19,
+      "text_errors": 2,
+      "both_errors": 18,
+      "metrics": {
+        "prompt_tokens": 1026,
+        "completion_tokens": 2021,
+        "total_tokens": 3047,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 51,
+      "correct": 24,
+      "incorrect": 27,
+      "accuracy_pct": 47.1,
+      "passed": false,
+      "first_error_move": 6,
+      "pos_errors": 15,
+      "text_errors": 1,
+      "both_errors": 11,
+      "metrics": {
+        "prompt_tokens": 1032,
+        "completion_tokens": 2141,
+        "total_tokens": 3173,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 51,
+      "correct": 16,
+      "incorrect": 35,
+      "accuracy_pct": 31.4,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 20,
+      "text_errors": 6,
+      "both_errors": 9,
+      "metrics": {
+        "prompt_tokens": 1028,
+        "completion_tokens": 2331,
+        "total_tokens": 3359,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 51,
+      "correct": 16,
+      "incorrect": 35,
+      "accuracy_pct": 31.4,
+      "passed": false,
+      "first_error_move": 9,
+      "pos_errors": 21,
+      "text_errors": 3,
+      "both_errors": 11,
+      "metrics": {
+        "prompt_tokens": 1029,
+        "completion_tokens": 2091,
+        "total_tokens": 3120,
+        "model": "mistral-large-3",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

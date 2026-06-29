@@ -1,0 +1,303 @@
+{
+  "experiment_file": "test_20_2.json",
+  "model_label": "model",
+  "model": "claude-sonnet-4-6",
+  "temperature": 1,
+  "run_timestamp": "2026-05-28T16:34:35.897865",
+  "total_tests": 20,
+  "perfect_tests": 3,
+  "failed_tests": 17,
+  "grand_total_moves": 9,
+  "grand_correct": 9,
+  "grand_incorrect": 0,
+  "grand_accuracy": 100.0,
+  "avg_first_error_move": null,
+  "avg_failures_per_failed_test": null,
+  "token_usage": {
+    "total_prompt_tokens": 21260,
+    "total_completion_tokens": 7414,
+    "total_tokens": 28674,
+    "avg_prompt_tokens": 1063.0,
+    "avg_completion_tokens": 370.7,
+    "avg_total_tokens": 1433.7
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 454,
+        "total_tokens": 1517,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 2,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 375,
+        "total_tokens": 1438,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 152,
+        "total_tokens": 1215,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 4,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 360,
+        "total_tokens": 1423,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 5,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 345,
+        "total_tokens": 1408,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 6,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 430,
+        "total_tokens": 1493,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 7,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 351,
+        "total_tokens": 1414,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 103,
+        "total_tokens": 1166,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 9,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 453,
+        "total_tokens": 1516,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 10,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 449,
+        "total_tokens": 1512,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 3,
+      "correct": 3,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "Moving",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "MOVING",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 154,
+        "total_tokens": 1217,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 12,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 415,
+        "total_tokens": 1478,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 13,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 399,
+        "total_tokens": 1462,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 14,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 472,
+        "total_tokens": 1535,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 15,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 412,
+        "total_tokens": 1475,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 16,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 453,
+        "total_tokens": 1516,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 17,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 464,
+        "total_tokens": 1527,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 18,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 421,
+        "total_tokens": 1484,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 380,
+        "total_tokens": 1443,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 20,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1063,
+        "completion_tokens": 372,
+        "total_tokens": 1435,
+        "model": "claude-sonnet-4-6",
+        "finish_reason": "end_turn"
+      }
+    }
+  ]
+}

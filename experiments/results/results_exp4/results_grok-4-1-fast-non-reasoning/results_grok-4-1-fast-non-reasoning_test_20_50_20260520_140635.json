@@ -1,0 +1,406 @@
+{
+  "experiment_file": "test_20_50.json",
+  "model_label": "model",
+  "model": "grok-4-1-fast-non-reasoning",
+  "temperature": 1,
+  "run_timestamp": "2026-05-20T14:06:35.043265",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 969,
+  "grand_correct": 165,
+  "grand_incorrect": 804,
+  "grand_accuracy": 17.0,
+  "avg_first_error_move": 3.47,
+  "avg_failures_per_failed_test": 42.32,
+  "grand_error_breakdown": {
+    "position_errors": 497,
+    "text_errors": 24,
+    "both_errors": 283,
+    "position_error_pct": 61.8,
+    "text_error_pct": 3.0,
+    "both_error_pct": 35.2
+  },
+  "token_usage": {
+    "total_prompt_tokens": 19280,
+    "total_completion_tokens": 37522,
+    "total_tokens": 56802,
+    "avg_prompt_tokens": 964.0,
+    "avg_completion_tokens": 1876.1,
+    "avg_total_tokens": 2840.1
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1702,
+        "total_tokens": 2666,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 51,
+      "correct": 5,
+      "incorrect": 46,
+      "accuracy_pct": 9.8,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 33,
+      "text_errors": 0,
+      "both_errors": 13,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 2023,
+        "total_tokens": 2987,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 51,
+      "correct": 8,
+      "incorrect": 43,
+      "accuracy_pct": 15.7,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 26,
+      "text_errors": 0,
+      "both_errors": 17,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1993,
+        "total_tokens": 2957,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 51,
+      "correct": 9,
+      "incorrect": 42,
+      "accuracy_pct": 17.6,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 31,
+      "text_errors": 0,
+      "both_errors": 11,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1950,
+        "total_tokens": 2914,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 51,
+      "correct": 11,
+      "incorrect": 40,
+      "accuracy_pct": 21.6,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 28,
+      "text_errors": 1,
+      "both_errors": 11,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1984,
+        "total_tokens": 2948,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 51,
+      "correct": 9,
+      "incorrect": 42,
+      "accuracy_pct": 17.6,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 21,
+      "text_errors": 2,
+      "both_errors": 19,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1503,
+        "total_tokens": 2467,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 51,
+      "correct": 13,
+      "incorrect": 38,
+      "accuracy_pct": 25.5,
+      "passed": false,
+      "first_error_move": 4,
+      "pos_errors": 30,
+      "text_errors": 0,
+      "both_errors": 8,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 2060,
+        "total_tokens": 3024,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 51,
+      "correct": 8,
+      "incorrect": 43,
+      "accuracy_pct": 15.7,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 27,
+      "text_errors": 2,
+      "both_errors": 14,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1791,
+        "total_tokens": 2755,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 51,
+      "correct": 13,
+      "incorrect": 38,
+      "accuracy_pct": 25.5,
+      "passed": false,
+      "first_error_move": 4,
+      "pos_errors": 24,
+      "text_errors": 2,
+      "both_errors": 12,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1984,
+        "total_tokens": 2948,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 51,
+      "correct": 8,
+      "incorrect": 43,
+      "accuracy_pct": 15.7,
+      "passed": false,
+      "first_error_move": 4,
+      "pos_errors": 27,
+      "text_errors": 2,
+      "both_errors": 14,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1350,
+        "total_tokens": 2314,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 51,
+      "correct": 4,
+      "incorrect": 47,
+      "accuracy_pct": 7.8,
+      "passed": false,
+      "first_error_move": 4,
+      "pos_errors": 23,
+      "text_errors": 1,
+      "both_errors": 23,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1871,
+        "total_tokens": 2835,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 51,
+      "correct": 11,
+      "incorrect": 40,
+      "accuracy_pct": 21.6,
+      "passed": false,
+      "first_error_move": 9,
+      "pos_errors": 23,
+      "text_errors": 0,
+      "both_errors": 17,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 2067,
+        "total_tokens": 3031,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 51,
+      "correct": 11,
+      "incorrect": 40,
+      "accuracy_pct": 21.6,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 26,
+      "text_errors": 3,
+      "both_errors": 11,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1867,
+        "total_tokens": 2831,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 51,
+      "correct": 9,
+      "incorrect": 42,
+      "accuracy_pct": 17.6,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 23,
+      "text_errors": 2,
+      "both_errors": 17,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1749,
+        "total_tokens": 2713,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 51,
+      "correct": 10,
+      "incorrect": 41,
+      "accuracy_pct": 19.6,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 31,
+      "text_errors": 1,
+      "both_errors": 9,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1863,
+        "total_tokens": 2827,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 51,
+      "correct": 6,
+      "incorrect": 45,
+      "accuracy_pct": 11.8,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 28,
+      "text_errors": 2,
+      "both_errors": 15,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1902,
+        "total_tokens": 2866,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 51,
+      "correct": 8,
+      "incorrect": 43,
+      "accuracy_pct": 15.7,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 25,
+      "text_errors": 3,
+      "both_errors": 15,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 2021,
+        "total_tokens": 2985,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 51,
+      "correct": 4,
+      "incorrect": 47,
+      "accuracy_pct": 7.8,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 27,
+      "text_errors": 2,
+      "both_errors": 18,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1917,
+        "total_tokens": 2881,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 51,
+      "correct": 3,
+      "incorrect": 48,
+      "accuracy_pct": 5.9,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 25,
+      "text_errors": 0,
+      "both_errors": 23,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 1906,
+        "total_tokens": 2870,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 51,
+      "correct": 15,
+      "incorrect": 36,
+      "accuracy_pct": 29.4,
+      "passed": false,
+      "first_error_move": 9,
+      "pos_errors": 19,
+      "text_errors": 1,
+      "both_errors": 16,
+      "metrics": {
+        "prompt_tokens": 964,
+        "completion_tokens": 2019,
+        "total_tokens": 2983,
+        "model": "grok-4-1-fast-non-reasoning",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

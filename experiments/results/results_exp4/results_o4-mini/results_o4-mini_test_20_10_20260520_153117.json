@@ -1,0 +1,414 @@
+{
+  "experiment_file": "test_20_10.json",
+  "model_label": "model",
+  "model": "o4-mini",
+  "temperature": 1,
+  "run_timestamp": "2026-05-20T15:31:17.566066",
+  "total_tests": 20,
+  "perfect_tests": 19,
+  "failed_tests": 1,
+  "grand_total_moves": 220,
+  "grand_correct": 219,
+  "grand_incorrect": 1,
+  "grand_accuracy": 99.5,
+  "avg_first_error_move": 4.0,
+  "avg_failures_per_failed_test": 1.0,
+  "grand_error_breakdown": {
+    "position_errors": 0,
+    "text_errors": 1,
+    "both_errors": 0,
+    "position_error_pct": 0.0,
+    "text_error_pct": 100.0,
+    "both_error_pct": 0.0
+  },
+  "token_usage": {
+    "total_prompt_tokens": 17920,
+    "total_completion_tokens": 45086,
+    "total_tokens": 63006,
+    "avg_prompt_tokens": 896.0,
+    "avg_completion_tokens": 2254.3,
+    "avg_total_tokens": 3150.3
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 2991,
+        "total_tokens": 3887,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 2094,
+        "total_tokens": 2990,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 2623,
+        "total_tokens": 3519,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 2368,
+        "total_tokens": 3264,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 1665,
+        "total_tokens": 2561,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 2867,
+        "total_tokens": 3763,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 1663,
+        "total_tokens": 2559,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 11,
+      "correct": 10,
+      "incorrect": 1,
+      "accuracy_pct": 90.9,
+      "passed": false,
+      "first_error_move": 4,
+      "pos_errors": 0,
+      "text_errors": 1,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 1922,
+        "total_tokens": 2818,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 1663,
+        "total_tokens": 2559,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 2050,
+        "total_tokens": 2946,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 1840,
+        "total_tokens": 2736,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 2096,
+        "total_tokens": 2992,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 1952,
+        "total_tokens": 2848,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 2246,
+        "total_tokens": 3142,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 3441,
+        "total_tokens": 4337,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 2884,
+        "total_tokens": 3780,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 1663,
+        "total_tokens": 2559,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 2352,
+        "total_tokens": 3248,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 2241,
+        "total_tokens": 3137,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 896,
+        "completion_tokens": 2465,
+        "total_tokens": 3361,
+        "model": "o4-mini-2025-04-16",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

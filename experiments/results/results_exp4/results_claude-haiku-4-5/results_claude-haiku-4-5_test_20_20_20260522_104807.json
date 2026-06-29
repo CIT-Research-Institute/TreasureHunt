@@ -1,0 +1,382 @@
+{
+  "experiment_file": "test_20_20.json",
+  "model_label": "model-5",
+  "model": "claude-haiku-4-5",
+  "temperature": 1,
+  "run_timestamp": "2026-05-22T10:48:07.921781",
+  "total_tests": 20,
+  "perfect_tests": 1,
+  "failed_tests": 19,
+  "grand_total_moves": 336,
+  "grand_correct": 162,
+  "grand_incorrect": 174,
+  "grand_accuracy": 48.2,
+  "avg_first_error_move": 5.53,
+  "avg_failures_per_failed_test": 11.6,
+  "grand_error_breakdown": {
+    "position_errors": 95,
+    "text_errors": 17,
+    "both_errors": 62,
+    "position_error_pct": 54.6,
+    "text_error_pct": 9.8,
+    "both_error_pct": 35.6
+  },
+  "token_usage": {
+    "total_prompt_tokens": 20700,
+    "total_completion_tokens": 18192,
+    "total_tokens": 38892,
+    "avg_prompt_tokens": 1035.0,
+    "avg_completion_tokens": 909.6,
+    "avg_total_tokens": 1944.6
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 21,
+      "correct": 8,
+      "incorrect": 13,
+      "accuracy_pct": 38.1,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 3,
+      "text_errors": 5,
+      "both_errors": 5,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 851,
+        "total_tokens": 1886,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 21,
+      "correct": 11,
+      "incorrect": 10,
+      "accuracy_pct": 52.4,
+      "passed": false,
+      "first_error_move": 11,
+      "pos_errors": 7,
+      "text_errors": 0,
+      "both_errors": 3,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 927,
+        "total_tokens": 1962,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 21,
+      "correct": 11,
+      "incorrect": 10,
+      "accuracy_pct": 52.4,
+      "passed": false,
+      "first_error_move": 0,
+      "pos_errors": 6,
+      "text_errors": 1,
+      "both_errors": 3,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 854,
+        "total_tokens": 1889,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 21,
+      "correct": 10,
+      "incorrect": 11,
+      "accuracy_pct": 47.6,
+      "passed": false,
+      "first_error_move": 2,
+      "pos_errors": 7,
+      "text_errors": 1,
+      "both_errors": 3,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 932,
+        "total_tokens": 1967,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 5,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 1024,
+        "total_tokens": 2059,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 6,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 1024,
+        "total_tokens": 2059,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 21,
+      "correct": 7,
+      "incorrect": 14,
+      "accuracy_pct": 33.3,
+      "passed": false,
+      "first_error_move": 7,
+      "pos_errors": 9,
+      "text_errors": 0,
+      "both_errors": 5,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 847,
+        "total_tokens": 1882,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 21,
+      "correct": 21,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "pos_errors": 0,
+      "text_errors": 0,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 929,
+        "total_tokens": 1964,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 21,
+      "correct": 4,
+      "incorrect": 17,
+      "accuracy_pct": 19.0,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 7,
+      "text_errors": 1,
+      "both_errors": 9,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 894,
+        "total_tokens": 1929,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 21,
+      "correct": 17,
+      "incorrect": 4,
+      "accuracy_pct": 81.0,
+      "passed": false,
+      "first_error_move": 17,
+      "pos_errors": 1,
+      "text_errors": 1,
+      "both_errors": 2,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 845,
+        "total_tokens": 1880,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 11,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 1024,
+        "total_tokens": 2059,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 21,
+      "correct": 6,
+      "incorrect": 15,
+      "accuracy_pct": 28.6,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 11,
+      "text_errors": 0,
+      "both_errors": 4,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 856,
+        "total_tokens": 1891,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 21,
+      "correct": 17,
+      "incorrect": 4,
+      "accuracy_pct": 81.0,
+      "passed": false,
+      "first_error_move": 6,
+      "pos_errors": 2,
+      "text_errors": 2,
+      "both_errors": 0,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 920,
+        "total_tokens": 1955,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 21,
+      "correct": 3,
+      "incorrect": 18,
+      "accuracy_pct": 14.3,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 7,
+      "text_errors": 0,
+      "both_errors": 11,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 890,
+        "total_tokens": 1925,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 21,
+      "correct": 5,
+      "incorrect": 16,
+      "accuracy_pct": 23.8,
+      "passed": false,
+      "first_error_move": 3,
+      "pos_errors": 9,
+      "text_errors": 2,
+      "both_errors": 5,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 848,
+        "total_tokens": 1883,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 21,
+      "correct": 18,
+      "incorrect": 3,
+      "accuracy_pct": 85.7,
+      "passed": false,
+      "first_error_move": 16,
+      "pos_errors": 2,
+      "text_errors": 0,
+      "both_errors": 1,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 887,
+        "total_tokens": 1922,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 21,
+      "correct": 7,
+      "incorrect": 14,
+      "accuracy_pct": 33.3,
+      "passed": false,
+      "first_error_move": 1,
+      "pos_errors": 8,
+      "text_errors": 3,
+      "both_errors": 3,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 888,
+        "total_tokens": 1923,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 21,
+      "correct": 6,
+      "incorrect": 15,
+      "accuracy_pct": 28.6,
+      "passed": false,
+      "first_error_move": 6,
+      "pos_errors": 11,
+      "text_errors": 0,
+      "both_errors": 4,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 880,
+        "total_tokens": 1915,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 21,
+      "correct": 11,
+      "incorrect": 10,
+      "accuracy_pct": 52.4,
+      "passed": false,
+      "first_error_move": 5,
+      "pos_errors": 5,
+      "text_errors": 1,
+      "both_errors": 4,
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 848,
+        "total_tokens": 1883,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 20,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1035,
+        "completion_tokens": 1024,
+        "total_tokens": 2059,
+        "model": "claude-haiku-4-5-20251001",
+        "finish_reason": "max_tokens"
+      }
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "experiment_file": "test_20_10.json",
+  "model_label": "model",
+  "model": "claude-opus-4-6",
+  "temperature": 1,
+  "run_timestamp": "2026-05-15T09:42:07.489424",
+  "total_tests": 20,
+  "perfect_tests": 12,
+  "failed_tests": 8,
+  "grand_total_moves": 143,
+  "grand_correct": 142,
+  "grand_incorrect": 1,
+  "grand_accuracy": 99.3,
+  "avg_first_error_move": 4.0,
+  "avg_failures_per_failed_test": 1.0,
+  "token_usage": {
+    "total_prompt_tokens": 21000,
+    "total_completion_tokens": 13772,
+    "total_tokens": 34772,
+    "avg_prompt_tokens": 1050.0,
+    "avg_completion_tokens": 688.6,
+    "avg_total_tokens": 1738.6
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 514,
+        "total_tokens": 1564,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 514,
+        "total_tokens": 1564,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 514,
+        "total_tokens": 1564,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 4,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 1024,
+        "total_tokens": 2074,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 5,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 1024,
+        "total_tokens": 2074,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 512,
+        "total_tokens": 1562,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 512,
+        "total_tokens": 1562,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 8,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 1024,
+        "total_tokens": 2074,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 9,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 1024,
+        "total_tokens": 2074,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 10,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 960,
+        "total_tokens": 2010,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 511,
+        "total_tokens": 1561,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "OK",
+        "YIPEE",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "BLOCKED",
+        "OK",
+        "YIPEE",
+        "BLOCKED",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 508,
+        "total_tokens": 1558,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 3,
+      "traps_model": 3,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 513,
+        "total_tokens": 1563,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "YIPEE",
+        "BLOCKED",
+        "OK",
+        "YIPEE",
+        "BLOCKED",
+        "OK",
+        "OUCH"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "YIPEE",
+        "BLOCKED",
+        "OK",
+        "YIPEE",
+        "BLOCKED",
+        "OK",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 514,
+        "total_tokens": 1564,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 3,
+      "traps_model": 3,
+      "ground_truth": [
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 513,
+        "total_tokens": 1563,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 16,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 1024,
+        "total_tokens": 2074,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 3,
+      "traps_model": 3,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "OUCH",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 516,
+        "total_tokens": 1566,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 11,
+      "correct": 10,
+      "incorrect": 1,
+      "accuracy_pct": 90.9,
+      "passed": false,
+      "first_error_move": 4,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 4,
+      "traps_model": 4,
+      "ground_truth": [
+        "OUCH",
+        "OUCH",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "OUCH",
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OUCH",
+        "OUCH",
+        "OK",
+        "BLOCKED",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 513,
+        "total_tokens": 1563,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 11,
+      "correct": 11,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 514,
+        "total_tokens": 1564,
+        "model": "claude-opus-4-6",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 20,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1050,
+        "completion_tokens": 1024,
+        "total_tokens": 2074,
+        "model": "claude-opus-4-6",
+        "finish_reason": "max_tokens"
+      }
+    }
+  ]
+}

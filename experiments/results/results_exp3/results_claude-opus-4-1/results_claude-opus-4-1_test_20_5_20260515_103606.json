@@ -1,0 +1,746 @@
+{
+  "experiment_file": "test_20_5.json",
+  "model_label": "model",
+  "model": "claude-opus-4-1",
+  "temperature": 1,
+  "run_timestamp": "2026-05-15T10:36:06.109642",
+  "total_tests": 20,
+  "perfect_tests": 13,
+  "failed_tests": 7,
+  "grand_total_moves": 120,
+  "grand_correct": 105,
+  "grand_incorrect": 15,
+  "grand_accuracy": 87.5,
+  "avg_first_error_move": 2.0,
+  "avg_failures_per_failed_test": 2.14,
+  "token_usage": {
+    "total_prompt_tokens": 20780,
+    "total_completion_tokens": 5624,
+    "total_tokens": 26404,
+    "avg_prompt_tokens": 1039.0,
+    "avg_completion_tokens": 281.2,
+    "avg_total_tokens": 1320.2
+  },
+  "tests": [
+    {
+      "test": 1,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 2,
+      "gold_model": 2,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "YIPEE",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "YIPEE",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 285,
+        "total_tokens": 1324,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 2,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "YIPEE",
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 281,
+        "total_tokens": 1320,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 3,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 282,
+        "total_tokens": 1321,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 4,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 282,
+        "total_tokens": 1321,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 5,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "OUCH",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 276,
+        "total_tokens": 1315,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 6,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 3,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "OUCH",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 280,
+        "total_tokens": 1319,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 7,
+      "moves_in_sequence": 6,
+      "correct": 4,
+      "incorrect": 2,
+      "accuracy_pct": 66.7,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "OK",
+        "OK",
+        "OK",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 275,
+        "total_tokens": 1314,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 8,
+      "moves_in_sequence": 6,
+      "correct": 3,
+      "incorrect": 3,
+      "accuracy_pct": 50.0,
+      "passed": false,
+      "first_error_move": 1,
+      "gold_expected": 1,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK",
+        "OUCH",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 280,
+        "total_tokens": 1319,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 9,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "BLOCKED",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "BLOCKED",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 281,
+        "total_tokens": 1320,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 10,
+      "moves_in_sequence": 6,
+      "correct": 2,
+      "incorrect": 4,
+      "accuracy_pct": 33.3,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 2,
+      "gold_model": 2,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "YIPEE",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "YIPEE",
+        "YIPEE",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 285,
+        "total_tokens": 1324,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 11,
+      "moves_in_sequence": 6,
+      "correct": 5,
+      "incorrect": 1,
+      "accuracy_pct": 83.3,
+      "passed": false,
+      "first_error_move": 5,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "BLOCKED",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 280,
+        "total_tokens": 1319,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 12,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OK",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 279,
+        "total_tokens": 1318,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 13,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 0,
+      "traps_model": 0,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 282,
+        "total_tokens": 1321,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 14,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "YIPEE",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "YIPEE",
+        "BLOCKED",
+        "BLOCKED"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 283,
+        "total_tokens": 1322,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 15,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 0,
+      "gold_model": 0,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 280,
+        "total_tokens": 1319,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 16,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "YIPEE",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 284,
+        "total_tokens": 1323,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 17,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "YIPEE",
+        "OUCH",
+        "BLOCKED",
+        "OK"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "YIPEE",
+        "OUCH",
+        "BLOCKED",
+        "OK"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 281,
+        "total_tokens": 1320,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 18,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "YIPEE",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "YIPEE",
+        "YIPEE",
+        "OUCH",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 284,
+        "total_tokens": 1323,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 19,
+      "moves_in_sequence": 6,
+      "correct": 6,
+      "incorrect": 0,
+      "accuracy_pct": 100.0,
+      "passed": true,
+      "first_error_move": null,
+      "gold_expected": 2,
+      "gold_model": 2,
+      "traps_expected": 1,
+      "traps_model": 1,
+      "ground_truth": [
+        "OK",
+        "OUCH",
+        "YIPEE",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "model_responses": [
+        "OK",
+        "OUCH",
+        "YIPEE",
+        "YIPEE",
+        "OK",
+        "YIPEE"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 284,
+        "total_tokens": 1323,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    },
+    {
+      "test": 20,
+      "moves_in_sequence": 6,
+      "correct": 5,
+      "incorrect": 1,
+      "accuracy_pct": 83.3,
+      "passed": false,
+      "first_error_move": 2,
+      "gold_expected": 1,
+      "gold_model": 1,
+      "traps_expected": 2,
+      "traps_model": 2,
+      "ground_truth": [
+        "YIPEE",
+        "OK",
+        "YIPEE",
+        "OK",
+        "OUCH",
+        "OUCH"
+      ],
+      "model_responses": [
+        "YIPEE",
+        "OK",
+        "OK",
+        "OK",
+        "OUCH",
+        "OUCH"
+      ],
+      "metrics": {
+        "prompt_tokens": 1039,
+        "completion_tokens": 280,
+        "total_tokens": 1319,
+        "model": "claude-opus-4-1-20250805",
+        "finish_reason": "end_turn"
+      }
+    }
+  ]
+}

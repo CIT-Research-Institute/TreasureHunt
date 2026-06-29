@@ -1,0 +1,246 @@
+{
+  "experiment_file": "test_20_200.json",
+  "model_label": "model",
+  "model": "DeepSeek-V3.1",
+  "temperature": 1,
+  "run_timestamp": "2026-05-14T10:04:24.597347",
+  "total_tests": 20,
+  "perfect_tests": 0,
+  "failed_tests": 20,
+  "grand_total_moves": 0,
+  "grand_correct": 0,
+  "grand_incorrect": 0,
+  "grand_accuracy": 0,
+  "avg_first_error_move": null,
+  "avg_failures_per_failed_test": null,
+  "token_usage": {
+    "total_prompt_tokens": 26740,
+    "total_completion_tokens": 78742,
+    "total_tokens": 105482,
+    "avg_prompt_tokens": 1337.0,
+    "avg_completion_tokens": 3937.1,
+    "avg_total_tokens": 5274.1
+  },
+  "tests": [
+    {
+      "test": 1,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 2032,
+        "total_tokens": 3369,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 2,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 8159,
+        "total_tokens": 9496,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 3,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 1127,
+        "total_tokens": 2464,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 4,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 1294,
+        "total_tokens": 2631,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 5,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 1443,
+        "total_tokens": 2780,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 6,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 1485,
+        "total_tokens": 2822,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 7,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 8209,
+        "total_tokens": 9546,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 8,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 7934,
+        "total_tokens": 9271,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 9,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 12364,
+        "total_tokens": 13701,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 10,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 1459,
+        "total_tokens": 2796,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 11,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 1380,
+        "total_tokens": 2717,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 12,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 8375,
+        "total_tokens": 9712,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 13,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 7481,
+        "total_tokens": 8818,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 14,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 1125,
+        "total_tokens": 2462,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 15,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 1766,
+        "total_tokens": 3103,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 16,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 1096,
+        "total_tokens": 2433,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 17,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 1203,
+        "total_tokens": 2540,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 18,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 8053,
+        "total_tokens": 9390,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 19,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 1455,
+        "total_tokens": 2792,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "test": 20,
+      "error": "parse error \u2014 no valid JSON returned",
+      "metrics": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 1302,
+        "total_tokens": 2639,
+        "model": "deepseek-v3.1",
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}
