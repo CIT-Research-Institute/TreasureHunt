@@ -1,0 +1,4822 @@
+[
+  {
+    "test": 1,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 1,
+          "y": 6
+        },
+        {
+          "x": 2,
+          "y": 1
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 3,
+          "y": 2
+        },
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 8
+        },
+        {
+          "x": 4,
+          "y": 4
+        },
+        {
+          "x": 4,
+          "y": 10
+        },
+        {
+          "x": 7,
+          "y": 3
+        },
+        {
+          "x": 8,
+          "y": 4
+        },
+        {
+          "x": 8,
+          "y": 6
+        },
+        {
+          "x": 8,
+          "y": 9
+        },
+        {
+          "x": 9,
+          "y": 2
+        },
+        {
+          "x": 10,
+          "y": 2
+        },
+        {
+          "x": 10,
+          "y": 6
+        },
+        {
+          "x": 10,
+          "y": 7
+        },
+        {
+          "x": 10,
+          "y": 8
+        }
+      ],
+      "gold": [
+        {
+          "x": 4,
+          "y": 8
+        },
+        {
+          "x": 5,
+          "y": 1
+        },
+        {
+          "x": 5,
+          "y": 6
+        },
+        {
+          "x": 6,
+          "y": 5
+        },
+        {
+          "x": 7,
+          "y": 1
+        },
+        {
+          "x": 7,
+          "y": 4
+        },
+        {
+          "x": 7,
+          "y": 7
+        },
+        {
+          "x": 8,
+          "y": 1
+        },
+        {
+          "x": 9,
+          "y": 6
+        },
+        {
+          "x": 9,
+          "y": 7
+        }
+      ]
+    },
+    "sequence": "1,6,down,left,right,right,right,right,right,right,right,left,right,right,down,up,up,up,left,up,left,right,right,down,right,left,left,up,right,right,right,right,left,left,right,right,up,up,left,up,left,down,left,left,down,up,left,up,down,up,right,up",
+    "start": {
+      "x": 1,
+      "y": 6
+    },
+    "moves": [
+      "down",
+      "left",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "left",
+      "right",
+      "right",
+      "down",
+      "up",
+      "up",
+      "up",
+      "left",
+      "up",
+      "left",
+      "right",
+      "right",
+      "down",
+      "right",
+      "left",
+      "left",
+      "up",
+      "right",
+      "right",
+      "right",
+      "right",
+      "left",
+      "left",
+      "right",
+      "right",
+      "up",
+      "up",
+      "left",
+      "up",
+      "left",
+      "down",
+      "left",
+      "left",
+      "down",
+      "up",
+      "left",
+      "up",
+      "down",
+      "up",
+      "right",
+      "up"
+    ],
+    "responses": [
+      "OUCH",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "YIPEE",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OUCH",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED"
+    ],
+    "gold_found": 3,
+    "traps_hit": 4
+  },
+  {
+    "test": 2,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 6,
+          "y": 5
+        },
+        {
+          "x": 6,
+          "y": 10
+        },
+        {
+          "x": 7,
+          "y": 2
+        },
+        {
+          "x": 7,
+          "y": 7
+        },
+        {
+          "x": 8,
+          "y": 2
+        },
+        {
+          "x": 8,
+          "y": 4
+        },
+        {
+          "x": 8,
+          "y": 7
+        },
+        {
+          "x": 8,
+          "y": 8
+        },
+        {
+          "x": 9,
+          "y": 3
+        },
+        {
+          "x": 9,
+          "y": 6
+        },
+        {
+          "x": 10,
+          "y": 2
+        },
+        {
+          "x": 10,
+          "y": 3
+        },
+        {
+          "x": 10,
+          "y": 4
+        },
+        {
+          "x": 10,
+          "y": 8
+        },
+        {
+          "x": 10,
+          "y": 10
+        }
+      ],
+      "gold": [
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 1,
+          "y": 9
+        },
+        {
+          "x": 3,
+          "y": 2
+        },
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 4,
+          "y": 3
+        },
+        {
+          "x": 5,
+          "y": 2
+        },
+        {
+          "x": 6,
+          "y": 4
+        },
+        {
+          "x": 6,
+          "y": 8
+        },
+        {
+          "x": 7,
+          "y": 5
+        },
+        {
+          "x": 7,
+          "y": 6
+        }
+      ]
+    },
+    "sequence": "8,10,up,down,left,right,up,right,down,down,right,up,up,down,right,up,down,up,right,right,right,up,left,left,left,down,left,down,left,right,up,down,left,left,left,left,left,left,left,left,down,left,right,down,down,down,down,down,left,down,down,left",
+    "start": {
+      "x": 8,
+      "y": 10
+    },
+    "moves": [
+      "up",
+      "down",
+      "left",
+      "right",
+      "up",
+      "right",
+      "down",
+      "down",
+      "right",
+      "up",
+      "up",
+      "down",
+      "right",
+      "up",
+      "down",
+      "up",
+      "right",
+      "right",
+      "right",
+      "up",
+      "left",
+      "left",
+      "left",
+      "down",
+      "left",
+      "down",
+      "left",
+      "right",
+      "up",
+      "down",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "left",
+      "down",
+      "left",
+      "right",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "left",
+      "down",
+      "down",
+      "left"
+    ],
+    "responses": [
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "OUCH",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "BLOCKED",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "BLOCKED",
+      "BLOCKED"
+    ],
+    "gold_found": 1,
+    "traps_hit": 4
+  },
+  {
+    "test": 3,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 7
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 7
+        },
+        {
+          "x": 4,
+          "y": 1
+        },
+        {
+          "x": 4,
+          "y": 10
+        },
+        {
+          "x": 6,
+          "y": 4
+        },
+        {
+          "x": 6,
+          "y": 6
+        },
+        {
+          "x": 6,
+          "y": 10
+        },
+        {
+          "x": 7,
+          "y": 4
+        },
+        {
+          "x": 7,
+          "y": 8
+        },
+        {
+          "x": 8,
+          "y": 2
+        },
+        {
+          "x": 8,
+          "y": 3
+        },
+        {
+          "x": 8,
+          "y": 4
+        },
+        {
+          "x": 8,
+          "y": 6
+        },
+        {
+          "x": 8,
+          "y": 7
+        },
+        {
+          "x": 10,
+          "y": 4
+        },
+        {
+          "x": 10,
+          "y": 9
+        }
+      ],
+      "gold": [
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 8
+        },
+        {
+          "x": 4,
+          "y": 3
+        },
+        {
+          "x": 6,
+          "y": 3
+        },
+        {
+          "x": 6,
+          "y": 8
+        },
+        {
+          "x": 7,
+          "y": 5
+        },
+        {
+          "x": 9,
+          "y": 8
+        },
+        {
+          "x": 10,
+          "y": 5
+        }
+      ]
+    },
+    "sequence": "1,9,up,right,up,right,down,left,right,left,down,left,up,right,right,right,left,right,right,left,left,up,up,down,left,right,left,left,up,up,right,down,left,down,left,left,down,up,right,left,left,up,left,left,up,down,left,right,up,down,right,left",
+    "start": {
+      "x": 1,
+      "y": 9
+    },
+    "moves": [
+      "up",
+      "right",
+      "up",
+      "right",
+      "down",
+      "left",
+      "right",
+      "left",
+      "down",
+      "left",
+      "up",
+      "right",
+      "right",
+      "right",
+      "left",
+      "right",
+      "right",
+      "left",
+      "left",
+      "up",
+      "up",
+      "down",
+      "left",
+      "right",
+      "left",
+      "left",
+      "up",
+      "up",
+      "right",
+      "down",
+      "left",
+      "down",
+      "left",
+      "left",
+      "down",
+      "up",
+      "right",
+      "left",
+      "left",
+      "up",
+      "left",
+      "left",
+      "up",
+      "down",
+      "left",
+      "right",
+      "up",
+      "down",
+      "right",
+      "left"
+    ],
+    "responses": [
+      "OK",
+      "Moving",
+      "OUCH",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "BLOCKED",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK"
+    ],
+    "gold_found": 0,
+    "traps_hit": 2
+  },
+  {
+    "test": 4,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 7
+        },
+        {
+          "x": 1,
+          "y": 9
+        },
+        {
+          "x": 1,
+          "y": 10
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 7
+        },
+        {
+          "x": 3,
+          "y": 8
+        },
+        {
+          "x": 4,
+          "y": 2
+        },
+        {
+          "x": 4,
+          "y": 6
+        },
+        {
+          "x": 4,
+          "y": 10
+        },
+        {
+          "x": 5,
+          "y": 6
+        },
+        {
+          "x": 6,
+          "y": 2
+        },
+        {
+          "x": 6,
+          "y": 5
+        },
+        {
+          "x": 6,
+          "y": 7
+        },
+        {
+          "x": 8,
+          "y": 1
+        },
+        {
+          "x": 8,
+          "y": 6
+        },
+        {
+          "x": 9,
+          "y": 1
+        },
+        {
+          "x": 9,
+          "y": 10
+        },
+        {
+          "x": 10,
+          "y": 3
+        }
+      ],
+      "gold": [
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 3,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 7
+        },
+        {
+          "x": 5,
+          "y": 7
+        },
+        {
+          "x": 6,
+          "y": 9
+        },
+        {
+          "x": 7,
+          "y": 6
+        },
+        {
+          "x": 9,
+          "y": 3
+        },
+        {
+          "x": 10,
+          "y": 5
+        },
+        {
+          "x": 10,
+          "y": 7
+        }
+      ]
+    },
+    "sequence": "3,7,right,up,right,left,left,down,up,up,left,right,right,down,left,up,left,down,down,up,up,right,right,left,right,down,down,down,right,down,up,right,down,up,up,left,right,up,down,down,left,right,right,right,right,up,left,down,down,right,right,right",
+    "start": {
+      "x": 3,
+      "y": 7
+    },
+    "moves": [
+      "right",
+      "up",
+      "right",
+      "left",
+      "left",
+      "down",
+      "up",
+      "up",
+      "left",
+      "right",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "down",
+      "down",
+      "up",
+      "up",
+      "right",
+      "right",
+      "left",
+      "right",
+      "down",
+      "down",
+      "down",
+      "right",
+      "down",
+      "up",
+      "right",
+      "down",
+      "up",
+      "up",
+      "left",
+      "right",
+      "up",
+      "down",
+      "down",
+      "left",
+      "right",
+      "right",
+      "right",
+      "right",
+      "up",
+      "left",
+      "down",
+      "down",
+      "right",
+      "right",
+      "right"
+    ],
+    "responses": [
+      "OUCH",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "OUCH",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "BLOCKED"
+    ],
+    "gold_found": 4,
+    "traps_hit": 7
+  },
+  {
+    "test": 5,
+    "board": {
+      "traps": [
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 5
+        },
+        {
+          "x": 3,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 1
+        },
+        {
+          "x": 4,
+          "y": 6
+        },
+        {
+          "x": 5,
+          "y": 1
+        },
+        {
+          "x": 5,
+          "y": 2
+        },
+        {
+          "x": 5,
+          "y": 6
+        },
+        {
+          "x": 5,
+          "y": 8
+        },
+        {
+          "x": 5,
+          "y": 9
+        },
+        {
+          "x": 6,
+          "y": 3
+        },
+        {
+          "x": 6,
+          "y": 6
+        },
+        {
+          "x": 7,
+          "y": 6
+        },
+        {
+          "x": 8,
+          "y": 2
+        },
+        {
+          "x": 8,
+          "y": 5
+        },
+        {
+          "x": 9,
+          "y": 9
+        },
+        {
+          "x": 10,
+          "y": 2
+        },
+        {
+          "x": 10,
+          "y": 3
+        },
+        {
+          "x": 10,
+          "y": 4
+        }
+      ],
+      "gold": [
+        {
+          "x": 1,
+          "y": 6
+        },
+        {
+          "x": 1,
+          "y": 9
+        },
+        {
+          "x": 3,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 5
+        },
+        {
+          "x": 4,
+          "y": 9
+        },
+        {
+          "x": 5,
+          "y": 3
+        },
+        {
+          "x": 6,
+          "y": 4
+        },
+        {
+          "x": 8,
+          "y": 1
+        },
+        {
+          "x": 9,
+          "y": 1
+        },
+        {
+          "x": 10,
+          "y": 10
+        }
+      ]
+    },
+    "sequence": "9,7,right,left,down,right,right,left,down,left,down,left,left,left,left,down,right,left,left,left,down,down,right,right,down,right,up,left,up,up,down,left,left,up,down,right,down,left,up,left,left,up,up,left,up,left,left,left,left,right,left,left",
+    "start": {
+      "x": 9,
+      "y": 7
+    },
+    "moves": [
+      "right",
+      "left",
+      "down",
+      "right",
+      "right",
+      "left",
+      "down",
+      "left",
+      "down",
+      "left",
+      "left",
+      "left",
+      "left",
+      "down",
+      "right",
+      "left",
+      "left",
+      "left",
+      "down",
+      "down",
+      "right",
+      "right",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "up",
+      "down",
+      "left",
+      "left",
+      "up",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "left",
+      "up",
+      "up",
+      "left",
+      "up",
+      "left",
+      "left",
+      "left",
+      "left",
+      "right",
+      "left",
+      "left"
+    ],
+    "responses": [
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "YIPEE",
+      "OUCH",
+      "BLOCKED",
+      "OUCH",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "YIPEE",
+      "BLOCKED",
+      "BLOCKED",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "BLOCKED"
+    ],
+    "gold_found": 4,
+    "traps_hit": 6
+  },
+  {
+    "test": 6,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 8
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 3,
+          "y": 9
+        },
+        {
+          "x": 4,
+          "y": 3
+        },
+        {
+          "x": 4,
+          "y": 4
+        },
+        {
+          "x": 4,
+          "y": 9
+        },
+        {
+          "x": 4,
+          "y": 10
+        },
+        {
+          "x": 5,
+          "y": 6
+        },
+        {
+          "x": 5,
+          "y": 8
+        },
+        {
+          "x": 6,
+          "y": 1
+        },
+        {
+          "x": 6,
+          "y": 3
+        },
+        {
+          "x": 6,
+          "y": 5
+        },
+        {
+          "x": 8,
+          "y": 1
+        },
+        {
+          "x": 9,
+          "y": 1
+        },
+        {
+          "x": 10,
+          "y": 2
+        }
+      ],
+      "gold": [
+        {
+          "x": 2,
+          "y": 6
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 3,
+          "y": 8
+        },
+        {
+          "x": 6,
+          "y": 2
+        },
+        {
+          "x": 6,
+          "y": 7
+        },
+        {
+          "x": 6,
+          "y": 9
+        },
+        {
+          "x": 7,
+          "y": 9
+        },
+        {
+          "x": 9,
+          "y": 2
+        },
+        {
+          "x": 10,
+          "y": 6
+        },
+        {
+          "x": 10,
+          "y": 10
+        }
+      ]
+    },
+    "sequence": "3,8,up,up,down,right,right,down,right,up,up,down,right,left,right,up,up,down,down,down,down,left,up,right,right,left,up,left,left,left,down,down,left,left,down,left,up,left,up,down,up,right,up,up,up,up,right,down,down,up,left,down",
+    "start": {
+      "x": 3,
+      "y": 8
+    },
+    "moves": [
+      "up",
+      "up",
+      "down",
+      "right",
+      "right",
+      "down",
+      "right",
+      "up",
+      "up",
+      "down",
+      "right",
+      "left",
+      "right",
+      "up",
+      "up",
+      "down",
+      "down",
+      "down",
+      "down",
+      "left",
+      "up",
+      "right",
+      "right",
+      "left",
+      "up",
+      "left",
+      "left",
+      "left",
+      "down",
+      "down",
+      "left",
+      "left",
+      "down",
+      "left",
+      "up",
+      "left",
+      "up",
+      "down",
+      "up",
+      "right",
+      "up",
+      "up",
+      "up",
+      "up",
+      "right",
+      "down",
+      "down",
+      "up",
+      "left",
+      "down"
+    ],
+    "responses": [
+      "YIPEE",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OK",
+      "OUCH",
+      "OK",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK",
+      "OUCH",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OUCH",
+      "YIPEE",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving"
+    ],
+    "gold_found": 6,
+    "traps_hit": 6
+  },
+  {
+    "test": 7,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 8
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 3,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 2
+        },
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 5
+        },
+        {
+          "x": 4,
+          "y": 7
+        },
+        {
+          "x": 4,
+          "y": 8
+        },
+        {
+          "x": 4,
+          "y": 10
+        },
+        {
+          "x": 5,
+          "y": 6
+        },
+        {
+          "x": 7,
+          "y": 3
+        },
+        {
+          "x": 8,
+          "y": 2
+        },
+        {
+          "x": 8,
+          "y": 4
+        },
+        {
+          "x": 9,
+          "y": 8
+        },
+        {
+          "x": 10,
+          "y": 2
+        },
+        {
+          "x": 10,
+          "y": 5
+        },
+        {
+          "x": 10,
+          "y": 8
+        },
+        {
+          "x": 10,
+          "y": 10
+        }
+      ],
+      "gold": [
+        {
+          "x": 1,
+          "y": 10
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 5
+        },
+        {
+          "x": 4,
+          "y": 1
+        },
+        {
+          "x": 4,
+          "y": 6
+        },
+        {
+          "x": 6,
+          "y": 3
+        },
+        {
+          "x": 8,
+          "y": 1
+        },
+        {
+          "x": 9,
+          "y": 6
+        },
+        {
+          "x": 9,
+          "y": 7
+        },
+        {
+          "x": 10,
+          "y": 9
+        }
+      ]
+    },
+    "sequence": "6,7,up,up,down,down,down,left,left,up,left,right,down,down,up,up,right,left,down,down,left,down,right,down,right,up,down,down,down,up,right,down,right,right,up,down,down,up,down,left,left,up,up,right,down,right,right,up,down,left,down,down",
+    "start": {
+      "x": 6,
+      "y": 7
+    },
+    "moves": [
+      "up",
+      "up",
+      "down",
+      "down",
+      "down",
+      "left",
+      "left",
+      "up",
+      "left",
+      "right",
+      "down",
+      "down",
+      "up",
+      "up",
+      "right",
+      "left",
+      "down",
+      "down",
+      "left",
+      "down",
+      "right",
+      "down",
+      "right",
+      "up",
+      "down",
+      "down",
+      "down",
+      "up",
+      "right",
+      "down",
+      "right",
+      "right",
+      "up",
+      "down",
+      "down",
+      "up",
+      "down",
+      "left",
+      "left",
+      "up",
+      "up",
+      "right",
+      "down",
+      "right",
+      "right",
+      "up",
+      "down",
+      "left",
+      "down",
+      "down"
+    ],
+    "responses": [
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OUCH",
+      "YIPEE",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "YIPEE",
+      "OUCH",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "YIPEE",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED"
+    ],
+    "gold_found": 3,
+    "traps_hit": 6
+  },
+  {
+    "test": 8,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 2
+        },
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 1,
+          "y": 6
+        },
+        {
+          "x": 1,
+          "y": 7
+        },
+        {
+          "x": 1,
+          "y": 10
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 3,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 3
+        },
+        {
+          "x": 5,
+          "y": 2
+        },
+        {
+          "x": 5,
+          "y": 5
+        },
+        {
+          "x": 6,
+          "y": 1
+        },
+        {
+          "x": 6,
+          "y": 6
+        },
+        {
+          "x": 7,
+          "y": 6
+        },
+        {
+          "x": 7,
+          "y": 7
+        },
+        {
+          "x": 8,
+          "y": 1
+        },
+        {
+          "x": 8,
+          "y": 6
+        },
+        {
+          "x": 8,
+          "y": 9
+        },
+        {
+          "x": 10,
+          "y": 4
+        }
+      ],
+      "gold": [
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 1
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 5,
+          "y": 9
+        },
+        {
+          "x": 6,
+          "y": 7
+        },
+        {
+          "x": 8,
+          "y": 5
+        },
+        {
+          "x": 8,
+          "y": 7
+        },
+        {
+          "x": 8,
+          "y": 10
+        },
+        {
+          "x": 10,
+          "y": 3
+        }
+      ]
+    },
+    "sequence": "8,3,right,down,left,right,down,left,left,down,left,up,right,down,down,right,up,left,up,right,left,up,right,left,down,left,up,right,right,right,down,up,right,up,left,up,up,right,right,right,left,right,up,left,down,right,up,left,left,left,up,right",
+    "start": {
+      "x": 8,
+      "y": 3
+    },
+    "moves": [
+      "right",
+      "down",
+      "left",
+      "right",
+      "down",
+      "left",
+      "left",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "right",
+      "left",
+      "up",
+      "right",
+      "left",
+      "down",
+      "left",
+      "up",
+      "right",
+      "right",
+      "right",
+      "down",
+      "up",
+      "right",
+      "up",
+      "left",
+      "up",
+      "up",
+      "right",
+      "right",
+      "right",
+      "left",
+      "right",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "left",
+      "left",
+      "up",
+      "right"
+    ],
+    "responses": [
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OK",
+      "BLOCKED",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH"
+    ],
+    "gold_found": 0,
+    "traps_hit": 4
+  },
+  {
+    "test": 9,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 1
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 9
+        },
+        {
+          "x": 4,
+          "y": 3
+        },
+        {
+          "x": 4,
+          "y": 8
+        },
+        {
+          "x": 5,
+          "y": 4
+        },
+        {
+          "x": 5,
+          "y": 9
+        },
+        {
+          "x": 6,
+          "y": 5
+        },
+        {
+          "x": 6,
+          "y": 6
+        },
+        {
+          "x": 7,
+          "y": 1
+        },
+        {
+          "x": 7,
+          "y": 3
+        },
+        {
+          "x": 7,
+          "y": 7
+        },
+        {
+          "x": 7,
+          "y": 9
+        },
+        {
+          "x": 9,
+          "y": 7
+        },
+        {
+          "x": 9,
+          "y": 8
+        },
+        {
+          "x": 9,
+          "y": 10
+        },
+        {
+          "x": 10,
+          "y": 5
+        }
+      ],
+      "gold": [
+        {
+          "x": 1,
+          "y": 7
+        },
+        {
+          "x": 2,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 8
+        },
+        {
+          "x": 4,
+          "y": 1
+        },
+        {
+          "x": 5,
+          "y": 1
+        },
+        {
+          "x": 5,
+          "y": 5
+        },
+        {
+          "x": 7,
+          "y": 5
+        }
+      ]
+    },
+    "sequence": "3,4,up,up,left,down,up,down,left,up,right,right,left,down,down,left,up,down,left,down,up,right,down,down,left,up,right,down,down,up,down,down,down,up,right,down,right,right,left,up,right,up,left,left,down,up,down,down,left,right,right,left",
+    "start": {
+      "x": 3,
+      "y": 4
+    },
+    "moves": [
+      "up",
+      "up",
+      "left",
+      "down",
+      "up",
+      "down",
+      "left",
+      "up",
+      "right",
+      "right",
+      "left",
+      "down",
+      "down",
+      "left",
+      "up",
+      "down",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "down",
+      "left",
+      "up",
+      "right",
+      "down",
+      "down",
+      "up",
+      "down",
+      "down",
+      "down",
+      "up",
+      "right",
+      "down",
+      "right",
+      "right",
+      "left",
+      "up",
+      "right",
+      "up",
+      "left",
+      "left",
+      "down",
+      "up",
+      "down",
+      "down",
+      "left",
+      "right",
+      "right",
+      "left"
+    ],
+    "responses": [
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OUCH",
+      "YIPEE",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OUCH",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving"
+    ],
+    "gold_found": 5,
+    "traps_hit": 5
+  },
+  {
+    "test": 10,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 1,
+          "y": 9
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 7
+        },
+        {
+          "x": 3,
+          "y": 9
+        },
+        {
+          "x": 4,
+          "y": 4
+        },
+        {
+          "x": 4,
+          "y": 5
+        },
+        {
+          "x": 5,
+          "y": 3
+        },
+        {
+          "x": 6,
+          "y": 2
+        },
+        {
+          "x": 6,
+          "y": 6
+        },
+        {
+          "x": 6,
+          "y": 9
+        },
+        {
+          "x": 7,
+          "y": 10
+        },
+        {
+          "x": 8,
+          "y": 5
+        },
+        {
+          "x": 8,
+          "y": 6
+        },
+        {
+          "x": 9,
+          "y": 6
+        },
+        {
+          "x": 9,
+          "y": 7
+        },
+        {
+          "x": 10,
+          "y": 5
+        },
+        {
+          "x": 10,
+          "y": 9
+        }
+      ],
+      "gold": [
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 4,
+          "y": 10
+        },
+        {
+          "x": 5,
+          "y": 1
+        },
+        {
+          "x": 5,
+          "y": 4
+        },
+        {
+          "x": 5,
+          "y": 8
+        },
+        {
+          "x": 7,
+          "y": 2
+        },
+        {
+          "x": 7,
+          "y": 3
+        },
+        {
+          "x": 9,
+          "y": 3
+        },
+        {
+          "x": 9,
+          "y": 4
+        },
+        {
+          "x": 9,
+          "y": 9
+        }
+      ]
+    },
+    "sequence": "3,5,right,down,down,right,down,down,up,left,right,up,left,left,left,down,up,right,down,left,up,down,up,left,down,left,down,up,left,up,right,up,right,down,up,right,right,right,right,right,up,right,down,up,left,left,left,left,right,down,up,right",
+    "start": {
+      "x": 3,
+      "y": 5
+    },
+    "moves": [
+      "right",
+      "down",
+      "down",
+      "right",
+      "down",
+      "down",
+      "up",
+      "left",
+      "right",
+      "up",
+      "left",
+      "left",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "left",
+      "up",
+      "down",
+      "up",
+      "left",
+      "down",
+      "left",
+      "down",
+      "up",
+      "left",
+      "up",
+      "right",
+      "up",
+      "right",
+      "down",
+      "up",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "up",
+      "right",
+      "down",
+      "up",
+      "left",
+      "left",
+      "left",
+      "left",
+      "right",
+      "down",
+      "up",
+      "right"
+    ],
+    "responses": [
+      "OK",
+      "OUCH",
+      "OUCH",
+      "OK",
+      "OUCH",
+      "OK",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "YIPEE",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK"
+    ],
+    "gold_found": 4,
+    "traps_hit": 7
+  },
+  {
+    "test": 11,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 3,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 5
+        },
+        {
+          "x": 3,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 9
+        },
+        {
+          "x": 4,
+          "y": 2
+        },
+        {
+          "x": 4,
+          "y": 3
+        },
+        {
+          "x": 4,
+          "y": 5
+        },
+        {
+          "x": 4,
+          "y": 6
+        },
+        {
+          "x": 4,
+          "y": 8
+        },
+        {
+          "x": 5,
+          "y": 1
+        },
+        {
+          "x": 6,
+          "y": 3
+        },
+        {
+          "x": 6,
+          "y": 7
+        },
+        {
+          "x": 8,
+          "y": 5
+        },
+        {
+          "x": 8,
+          "y": 7
+        },
+        {
+          "x": 8,
+          "y": 8
+        },
+        {
+          "x": 9,
+          "y": 3
+        },
+        {
+          "x": 10,
+          "y": 9
+        },
+        {
+          "x": 10,
+          "y": 10
+        }
+      ],
+      "gold": [
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 1
+        },
+        {
+          "x": 4,
+          "y": 10
+        },
+        {
+          "x": 5,
+          "y": 5
+        },
+        {
+          "x": 5,
+          "y": 10
+        },
+        {
+          "x": 6,
+          "y": 1
+        },
+        {
+          "x": 7,
+          "y": 8
+        },
+        {
+          "x": 8,
+          "y": 4
+        },
+        {
+          "x": 9,
+          "y": 9
+        },
+        {
+          "x": 10,
+          "y": 4
+        }
+      ]
+    },
+    "sequence": "10,8,down,left,right,up,left,right,right,left,up,right,up,down,up,down,down,left,up,down,up,right,down,up,up,up,up,up,down,down,up,up,down,right,up,down,left,down,down,left,down,left,up,down,right,left,up,left,up,left,right,right",
+    "start": {
+      "x": 10,
+      "y": 8
+    },
+    "moves": [
+      "down",
+      "left",
+      "right",
+      "up",
+      "left",
+      "right",
+      "right",
+      "left",
+      "up",
+      "right",
+      "up",
+      "down",
+      "up",
+      "down",
+      "down",
+      "left",
+      "up",
+      "down",
+      "up",
+      "right",
+      "down",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "down",
+      "down",
+      "up",
+      "up",
+      "down",
+      "right",
+      "up",
+      "down",
+      "left",
+      "down",
+      "down",
+      "left",
+      "down",
+      "left",
+      "up",
+      "down",
+      "right",
+      "left",
+      "up",
+      "left",
+      "up",
+      "left",
+      "right",
+      "right"
+    ],
+    "responses": [
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "YIPEE",
+      "OUCH",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "YIPEE"
+    ],
+    "gold_found": 2,
+    "traps_hit": 4
+  },
+  {
+    "test": 12,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 1,
+          "y": 8
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 3,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 4,
+          "y": 3
+        },
+        {
+          "x": 6,
+          "y": 10
+        },
+        {
+          "x": 7,
+          "y": 1
+        },
+        {
+          "x": 7,
+          "y": 6
+        },
+        {
+          "x": 7,
+          "y": 10
+        },
+        {
+          "x": 8,
+          "y": 2
+        },
+        {
+          "x": 9,
+          "y": 1
+        },
+        {
+          "x": 9,
+          "y": 2
+        },
+        {
+          "x": 9,
+          "y": 9
+        },
+        {
+          "x": 10,
+          "y": 2
+        },
+        {
+          "x": 10,
+          "y": 4
+        },
+        {
+          "x": 10,
+          "y": 6
+        }
+      ],
+      "gold": [
+        {
+          "x": 1,
+          "y": 7
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 8
+        },
+        {
+          "x": 3,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 6
+        },
+        {
+          "x": 4,
+          "y": 9
+        },
+        {
+          "x": 5,
+          "y": 2
+        },
+        {
+          "x": 5,
+          "y": 4
+        },
+        {
+          "x": 8,
+          "y": 9
+        },
+        {
+          "x": 9,
+          "y": 8
+        }
+      ]
+    },
+    "sequence": "8,6,right,right,up,right,left,down,left,right,right,up,right,left,right,left,left,up,up,right,right,up,left,left,up,up,up,up,left,down,right,up,left,up,down,down,right,up,right,right,right,left,left,right,left,down,left,down,up,right,down,left",
+    "start": {
+      "x": 8,
+      "y": 6
+    },
+    "moves": [
+      "right",
+      "right",
+      "up",
+      "right",
+      "left",
+      "down",
+      "left",
+      "right",
+      "right",
+      "up",
+      "right",
+      "left",
+      "right",
+      "left",
+      "left",
+      "up",
+      "up",
+      "right",
+      "right",
+      "up",
+      "left",
+      "left",
+      "up",
+      "up",
+      "up",
+      "up",
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "up",
+      "down",
+      "down",
+      "right",
+      "up",
+      "right",
+      "right",
+      "right",
+      "left",
+      "left",
+      "right",
+      "left",
+      "down",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "left"
+    ],
+    "responses": [
+      "OK",
+      "Moving",
+      "OUCH",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "YIPEE",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "BLOCKED",
+      "BLOCKED",
+      "BLOCKED",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK"
+    ],
+    "gold_found": 1,
+    "traps_hit": 3
+  },
+  {
+    "test": 13,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 2
+        },
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 1
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 1
+        },
+        {
+          "x": 4,
+          "y": 6
+        },
+        {
+          "x": 5,
+          "y": 4
+        },
+        {
+          "x": 5,
+          "y": 9
+        },
+        {
+          "x": 6,
+          "y": 3
+        },
+        {
+          "x": 6,
+          "y": 5
+        },
+        {
+          "x": 6,
+          "y": 6
+        },
+        {
+          "x": 6,
+          "y": 7
+        },
+        {
+          "x": 7,
+          "y": 1
+        },
+        {
+          "x": 7,
+          "y": 6
+        },
+        {
+          "x": 7,
+          "y": 8
+        },
+        {
+          "x": 8,
+          "y": 7
+        },
+        {
+          "x": 9,
+          "y": 2
+        },
+        {
+          "x": 10,
+          "y": 3
+        },
+        {
+          "x": 10,
+          "y": 10
+        }
+      ],
+      "gold": [
+        {
+          "x": 2,
+          "y": 6
+        },
+        {
+          "x": 2,
+          "y": 8
+        },
+        {
+          "x": 3,
+          "y": 9
+        },
+        {
+          "x": 5,
+          "y": 10
+        },
+        {
+          "x": 7,
+          "y": 2
+        },
+        {
+          "x": 7,
+          "y": 3
+        },
+        {
+          "x": 7,
+          "y": 9
+        },
+        {
+          "x": 8,
+          "y": 3
+        },
+        {
+          "x": 8,
+          "y": 4
+        },
+        {
+          "x": 10,
+          "y": 1
+        }
+      ]
+    },
+    "sequence": "3,5,up,up,up,up,right,down,down,right,up,up,left,right,right,down,down,right,right,left,down,right,left,right,up,left,left,right,right,up,right,left,up,up,left,left,right,down,up,left,up,left,up,right,left,left,up,up,up,up,left,up",
+    "start": {
+      "x": 3,
+      "y": 5
+    },
+    "moves": [
+      "up",
+      "up",
+      "up",
+      "up",
+      "right",
+      "down",
+      "down",
+      "right",
+      "up",
+      "up",
+      "left",
+      "right",
+      "right",
+      "down",
+      "down",
+      "right",
+      "right",
+      "left",
+      "down",
+      "right",
+      "left",
+      "right",
+      "up",
+      "left",
+      "left",
+      "right",
+      "right",
+      "up",
+      "right",
+      "left",
+      "up",
+      "up",
+      "left",
+      "left",
+      "right",
+      "down",
+      "up",
+      "left",
+      "up",
+      "left",
+      "up",
+      "right",
+      "left",
+      "left",
+      "up",
+      "up",
+      "up",
+      "up",
+      "left",
+      "up"
+    ],
+    "responses": [
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OK",
+      "OUCH",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "YIPEE",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "BLOCKED",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "BLOCKED"
+    ],
+    "gold_found": 3,
+    "traps_hit": 4
+  },
+  {
+    "test": 14,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 1,
+          "y": 7
+        },
+        {
+          "x": 3,
+          "y": 7
+        },
+        {
+          "x": 4,
+          "y": 1
+        },
+        {
+          "x": 4,
+          "y": 4
+        },
+        {
+          "x": 4,
+          "y": 7
+        },
+        {
+          "x": 5,
+          "y": 8
+        },
+        {
+          "x": 6,
+          "y": 6
+        },
+        {
+          "x": 7,
+          "y": 1
+        },
+        {
+          "x": 7,
+          "y": 2
+        },
+        {
+          "x": 7,
+          "y": 3
+        },
+        {
+          "x": 7,
+          "y": 6
+        },
+        {
+          "x": 7,
+          "y": 8
+        },
+        {
+          "x": 8,
+          "y": 1
+        },
+        {
+          "x": 8,
+          "y": 2
+        },
+        {
+          "x": 9,
+          "y": 4
+        },
+        {
+          "x": 9,
+          "y": 5
+        },
+        {
+          "x": 10,
+          "y": 8
+        },
+        {
+          "x": 10,
+          "y": 10
+        }
+      ],
+      "gold": [
+        {
+          "x": 2,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 5
+        },
+        {
+          "x": 4,
+          "y": 6
+        },
+        {
+          "x": 5,
+          "y": 1
+        },
+        {
+          "x": 6,
+          "y": 8
+        },
+        {
+          "x": 8,
+          "y": 6
+        },
+        {
+          "x": 9,
+          "y": 3
+        },
+        {
+          "x": 9,
+          "y": 8
+        },
+        {
+          "x": 9,
+          "y": 9
+        }
+      ]
+    },
+    "sequence": "1,4,right,up,down,left,down,up,up,up,left,right,up,up,left,left,down,up,up,down,up,up,right,left,right,left,right,up,left,left,right,right,down,down,up,left,up,right,up,up,right,up,right,right,right,left,left,down,up,up,right,up",
+    "start": {
+      "x": 1,
+      "y": 4
+    },
+    "moves": [
+      "right",
+      "up",
+      "down",
+      "left",
+      "down",
+      "up",
+      "up",
+      "up",
+      "left",
+      "right",
+      "up",
+      "up",
+      "left",
+      "left",
+      "down",
+      "up",
+      "up",
+      "down",
+      "up",
+      "up",
+      "right",
+      "left",
+      "right",
+      "left",
+      "right",
+      "up",
+      "left",
+      "left",
+      "right",
+      "right",
+      "down",
+      "down",
+      "up",
+      "left",
+      "up",
+      "right",
+      "up",
+      "up",
+      "right",
+      "up",
+      "right",
+      "right",
+      "right",
+      "left",
+      "left",
+      "down",
+      "up",
+      "up",
+      "right",
+      "up"
+    ],
+    "responses": [
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "BLOCKED"
+    ],
+    "gold_found": 1,
+    "traps_hit": 2
+  },
+  {
+    "test": 15,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 6
+        },
+        {
+          "x": 1,
+          "y": 7
+        },
+        {
+          "x": 2,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 3,
+          "y": 6
+        },
+        {
+          "x": 3,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 1
+        },
+        {
+          "x": 4,
+          "y": 4
+        },
+        {
+          "x": 5,
+          "y": 1
+        },
+        {
+          "x": 5,
+          "y": 10
+        },
+        {
+          "x": 6,
+          "y": 2
+        },
+        {
+          "x": 6,
+          "y": 4
+        },
+        {
+          "x": 6,
+          "y": 8
+        },
+        {
+          "x": 6,
+          "y": 9
+        },
+        {
+          "x": 7,
+          "y": 3
+        },
+        {
+          "x": 7,
+          "y": 7
+        },
+        {
+          "x": 8,
+          "y": 1
+        },
+        {
+          "x": 9,
+          "y": 8
+        },
+        {
+          "x": 10,
+          "y": 2
+        },
+        {
+          "x": 10,
+          "y": 10
+        }
+      ],
+      "gold": [
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 8
+        },
+        {
+          "x": 3,
+          "y": 1
+        },
+        {
+          "x": 4,
+          "y": 7
+        },
+        {
+          "x": 5,
+          "y": 5
+        },
+        {
+          "x": 6,
+          "y": 6
+        },
+        {
+          "x": 6,
+          "y": 7
+        },
+        {
+          "x": 7,
+          "y": 4
+        },
+        {
+          "x": 7,
+          "y": 9
+        },
+        {
+          "x": 10,
+          "y": 9
+        }
+      ]
+    },
+    "sequence": "4,3,down,left,down,right,up,up,down,left,up,up,left,up,up,left,down,up,up,up,up,down,down,down,down,down,up,right,right,left,down,left,down,left,left,down,right,left,down,left,left,down,right,right,up,up,up,up,right,up,up,down",
+    "start": {
+      "x": 4,
+      "y": 3
+    },
+    "moves": [
+      "down",
+      "left",
+      "down",
+      "right",
+      "up",
+      "up",
+      "down",
+      "left",
+      "up",
+      "up",
+      "left",
+      "up",
+      "up",
+      "left",
+      "down",
+      "up",
+      "up",
+      "up",
+      "up",
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "up",
+      "right",
+      "right",
+      "left",
+      "down",
+      "left",
+      "down",
+      "left",
+      "left",
+      "down",
+      "right",
+      "left",
+      "down",
+      "left",
+      "left",
+      "down",
+      "right",
+      "right",
+      "up",
+      "up",
+      "up",
+      "up",
+      "right",
+      "up",
+      "up",
+      "down"
+    ],
+    "responses": [
+      "OK",
+      "Moving",
+      "OK",
+      "YIPEE",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK"
+    ],
+    "gold_found": 3,
+    "traps_hit": 4
+  },
+  {
+    "test": 16,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 6
+        },
+        {
+          "x": 1,
+          "y": 9
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 6
+        },
+        {
+          "x": 4,
+          "y": 2
+        },
+        {
+          "x": 4,
+          "y": 4
+        },
+        {
+          "x": 4,
+          "y": 7
+        },
+        {
+          "x": 5,
+          "y": 4
+        },
+        {
+          "x": 6,
+          "y": 5
+        },
+        {
+          "x": 6,
+          "y": 6
+        },
+        {
+          "x": 6,
+          "y": 10
+        },
+        {
+          "x": 7,
+          "y": 7
+        },
+        {
+          "x": 8,
+          "y": 6
+        },
+        {
+          "x": 8,
+          "y": 9
+        },
+        {
+          "x": 8,
+          "y": 10
+        },
+        {
+          "x": 9,
+          "y": 6
+        },
+        {
+          "x": 9,
+          "y": 7
+        },
+        {
+          "x": 10,
+          "y": 4
+        },
+        {
+          "x": 10,
+          "y": 6
+        },
+        {
+          "x": 10,
+          "y": 9
+        }
+      ],
+      "gold": [
+        {
+          "x": 2,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 8
+        },
+        {
+          "x": 3,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 8
+        },
+        {
+          "x": 4,
+          "y": 1
+        },
+        {
+          "x": 5,
+          "y": 8
+        },
+        {
+          "x": 9,
+          "y": 8
+        },
+        {
+          "x": 10,
+          "y": 8
+        }
+      ]
+    },
+    "sequence": "7,7,right,left,right,up,down,left,right,left,up,left,down,right,down,up,left,left,up,right,down,left,down,up,right,left,right,down,down,left,right,right,up,left,up,right,up,left,down,down,down,up,up,left,down,up,up,left,down,down,left,right",
+    "start": {
+      "x": 7,
+      "y": 7
+    },
+    "moves": [
+      "right",
+      "left",
+      "right",
+      "up",
+      "down",
+      "left",
+      "right",
+      "left",
+      "up",
+      "left",
+      "down",
+      "right",
+      "down",
+      "up",
+      "left",
+      "left",
+      "up",
+      "right",
+      "down",
+      "left",
+      "down",
+      "up",
+      "right",
+      "left",
+      "right",
+      "down",
+      "down",
+      "left",
+      "right",
+      "right",
+      "up",
+      "left",
+      "up",
+      "right",
+      "up",
+      "left",
+      "down",
+      "down",
+      "down",
+      "up",
+      "up",
+      "left",
+      "down",
+      "up",
+      "up",
+      "left",
+      "down",
+      "down",
+      "left",
+      "right"
+    ],
+    "responses": [
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "OUCH",
+      "OK"
+    ],
+    "gold_found": 1,
+    "traps_hit": 5
+  },
+  {
+    "test": 17,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 1,
+          "y": 9
+        },
+        {
+          "x": 2,
+          "y": 8
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 3,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 2
+        },
+        {
+          "x": 3,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 2
+        },
+        {
+          "x": 4,
+          "y": 6
+        },
+        {
+          "x": 4,
+          "y": 9
+        },
+        {
+          "x": 5,
+          "y": 4
+        },
+        {
+          "x": 5,
+          "y": 5
+        },
+        {
+          "x": 5,
+          "y": 8
+        },
+        {
+          "x": 6,
+          "y": 7
+        },
+        {
+          "x": 6,
+          "y": 8
+        },
+        {
+          "x": 7,
+          "y": 1
+        },
+        {
+          "x": 7,
+          "y": 4
+        },
+        {
+          "x": 8,
+          "y": 2
+        },
+        {
+          "x": 9,
+          "y": 3
+        }
+      ],
+      "gold": [
+        {
+          "x": 2,
+          "y": 7
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 4,
+          "y": 10
+        },
+        {
+          "x": 5,
+          "y": 10
+        },
+        {
+          "x": 6,
+          "y": 5
+        },
+        {
+          "x": 7,
+          "y": 5
+        },
+        {
+          "x": 8,
+          "y": 10
+        },
+        {
+          "x": 9,
+          "y": 1
+        },
+        {
+          "x": 9,
+          "y": 10
+        },
+        {
+          "x": 10,
+          "y": 3
+        }
+      ]
+    },
+    "sequence": "2,9,left,left,up,left,up,right,down,up,right,left,up,left,up,left,left,down,left,down,right,left,left,right,left,right,up,down,down,down,right,left,right,down,left,right,left,down,right,down,left,up,left,right,up,down,up,right,down,up,down,right",
+    "start": {
+      "x": 2,
+      "y": 9
+    },
+    "moves": [
+      "left",
+      "left",
+      "up",
+      "left",
+      "up",
+      "right",
+      "down",
+      "up",
+      "right",
+      "left",
+      "up",
+      "left",
+      "up",
+      "left",
+      "left",
+      "down",
+      "left",
+      "down",
+      "right",
+      "left",
+      "left",
+      "right",
+      "left",
+      "right",
+      "up",
+      "down",
+      "down",
+      "down",
+      "right",
+      "left",
+      "right",
+      "down",
+      "left",
+      "right",
+      "left",
+      "down",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "right",
+      "up",
+      "down",
+      "up",
+      "right",
+      "down",
+      "up",
+      "down",
+      "right"
+    ],
+    "responses": [
+      "YIPEE",
+      "OUCH",
+      "BLOCKED",
+      "OK",
+      "BLOCKED",
+      "BLOCKED",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "BLOCKED",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "OUCH",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK"
+    ],
+    "gold_found": 2,
+    "traps_hit": 5
+  },
+  {
+    "test": 18,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 1,
+          "y": 6
+        },
+        {
+          "x": 1,
+          "y": 7
+        },
+        {
+          "x": 2,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 5
+        },
+        {
+          "x": 5,
+          "y": 5
+        },
+        {
+          "x": 6,
+          "y": 9
+        },
+        {
+          "x": 6,
+          "y": 10
+        },
+        {
+          "x": 7,
+          "y": 1
+        },
+        {
+          "x": 7,
+          "y": 2
+        },
+        {
+          "x": 7,
+          "y": 3
+        },
+        {
+          "x": 7,
+          "y": 4
+        },
+        {
+          "x": 8,
+          "y": 8
+        },
+        {
+          "x": 9,
+          "y": 4
+        },
+        {
+          "x": 10,
+          "y": 3
+        },
+        {
+          "x": 10,
+          "y": 6
+        },
+        {
+          "x": 10,
+          "y": 8
+        }
+      ],
+      "gold": [
+        {
+          "x": 2,
+          "y": 8
+        },
+        {
+          "x": 3,
+          "y": 2
+        },
+        {
+          "x": 5,
+          "y": 6
+        },
+        {
+          "x": 5,
+          "y": 7
+        },
+        {
+          "x": 6,
+          "y": 3
+        },
+        {
+          "x": 6,
+          "y": 6
+        },
+        {
+          "x": 7,
+          "y": 9
+        },
+        {
+          "x": 9,
+          "y": 10
+        },
+        {
+          "x": 10,
+          "y": 2
+        },
+        {
+          "x": 10,
+          "y": 9
+        }
+      ]
+    },
+    "sequence": "1,3,up,up,right,left,up,right,down,left,left,down,left,right,left,right,left,left,right,down,down,right,up,down,up,up,up,up,down,down,up,down,down,down,right,down,down,up,right,right,right,left,left,left,left,right,left,up,up,down,down,right",
+    "start": {
+      "x": 1,
+      "y": 3
+    },
+    "moves": [
+      "up",
+      "up",
+      "right",
+      "left",
+      "up",
+      "right",
+      "down",
+      "left",
+      "left",
+      "down",
+      "left",
+      "right",
+      "left",
+      "right",
+      "left",
+      "left",
+      "right",
+      "down",
+      "down",
+      "right",
+      "up",
+      "down",
+      "up",
+      "up",
+      "up",
+      "up",
+      "down",
+      "down",
+      "up",
+      "down",
+      "down",
+      "down",
+      "right",
+      "down",
+      "down",
+      "up",
+      "right",
+      "right",
+      "right",
+      "left",
+      "left",
+      "left",
+      "left",
+      "right",
+      "left",
+      "up",
+      "up",
+      "down",
+      "down",
+      "right"
+    ],
+    "responses": [
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK"
+    ],
+    "gold_found": 1,
+    "traps_hit": 4
+  },
+  {
+    "test": 19,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 10
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 3,
+          "y": 4
+        },
+        {
+          "x": 3,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 8
+        },
+        {
+          "x": 5,
+          "y": 4
+        },
+        {
+          "x": 6,
+          "y": 2
+        },
+        {
+          "x": 6,
+          "y": 7
+        },
+        {
+          "x": 7,
+          "y": 2
+        },
+        {
+          "x": 7,
+          "y": 7
+        },
+        {
+          "x": 8,
+          "y": 1
+        },
+        {
+          "x": 8,
+          "y": 6
+        },
+        {
+          "x": 9,
+          "y": 2
+        },
+        {
+          "x": 9,
+          "y": 3
+        },
+        {
+          "x": 9,
+          "y": 6
+        },
+        {
+          "x": 9,
+          "y": 10
+        },
+        {
+          "x": 10,
+          "y": 5
+        },
+        {
+          "x": 10,
+          "y": 6
+        }
+      ],
+      "gold": [
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 3,
+          "y": 1
+        },
+        {
+          "x": 3,
+          "y": 7
+        },
+        {
+          "x": 4,
+          "y": 2
+        },
+        {
+          "x": 4,
+          "y": 5
+        },
+        {
+          "x": 5,
+          "y": 5
+        },
+        {
+          "x": 5,
+          "y": 8
+        },
+        {
+          "x": 10,
+          "y": 7
+        },
+        {
+          "x": 10,
+          "y": 10
+        }
+      ]
+    },
+    "sequence": "9,2,left,up,down,down,down,left,left,left,right,left,down,down,left,left,right,left,left,right,left,up,left,right,right,right,down,up,right,up,up,up,down,up,down,up,up,up,left,down,left,left,down,right,right,down,up,right,up,up,right,up",
+    "start": {
+      "x": 9,
+      "y": 2
+    },
+    "moves": [
+      "left",
+      "up",
+      "down",
+      "down",
+      "down",
+      "left",
+      "left",
+      "left",
+      "right",
+      "left",
+      "down",
+      "down",
+      "left",
+      "left",
+      "right",
+      "left",
+      "left",
+      "right",
+      "left",
+      "up",
+      "left",
+      "right",
+      "right",
+      "right",
+      "down",
+      "up",
+      "right",
+      "up",
+      "up",
+      "up",
+      "down",
+      "up",
+      "down",
+      "up",
+      "up",
+      "up",
+      "left",
+      "down",
+      "left",
+      "left",
+      "down",
+      "right",
+      "right",
+      "down",
+      "up",
+      "right",
+      "up",
+      "up",
+      "right",
+      "up"
+    ],
+    "responses": [
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "BLOCKED",
+      "BLOCKED",
+      "OK",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OUCH",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "OUCH",
+      "OK"
+    ],
+    "gold_found": 4,
+    "traps_hit": 4
+  },
+  {
+    "test": 20,
+    "board": {
+      "traps": [
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 7
+        },
+        {
+          "x": 2,
+          "y": 3
+        },
+        {
+          "x": 2,
+          "y": 9
+        },
+        {
+          "x": 3,
+          "y": 9
+        },
+        {
+          "x": 4,
+          "y": 5
+        },
+        {
+          "x": 4,
+          "y": 7
+        },
+        {
+          "x": 5,
+          "y": 5
+        },
+        {
+          "x": 5,
+          "y": 6
+        },
+        {
+          "x": 5,
+          "y": 7
+        },
+        {
+          "x": 6,
+          "y": 4
+        },
+        {
+          "x": 6,
+          "y": 8
+        },
+        {
+          "x": 7,
+          "y": 3
+        },
+        {
+          "x": 7,
+          "y": 4
+        },
+        {
+          "x": 7,
+          "y": 7
+        },
+        {
+          "x": 9,
+          "y": 1
+        },
+        {
+          "x": 9,
+          "y": 5
+        },
+        {
+          "x": 9,
+          "y": 9
+        },
+        {
+          "x": 10,
+          "y": 7
+        },
+        {
+          "x": 10,
+          "y": 10
+        }
+      ],
+      "gold": [
+        {
+          "x": 1,
+          "y": 2
+        },
+        {
+          "x": 1,
+          "y": 3
+        },
+        {
+          "x": 1,
+          "y": 4
+        },
+        {
+          "x": 2,
+          "y": 7
+        },
+        {
+          "x": 3,
+          "y": 10
+        },
+        {
+          "x": 4,
+          "y": 4
+        },
+        {
+          "x": 4,
+          "y": 8
+        },
+        {
+          "x": 6,
+          "y": 7
+        },
+        {
+          "x": 6,
+          "y": 9
+        },
+        {
+          "x": 9,
+          "y": 4
+        }
+      ]
+    },
+    "sequence": "6,10,left,down,left,down,right,right,up,up,up,right,left,left,down,left,down,left,down,down,left,right,right,up,left,down,up,down,right,left,down,left,left,up,right,down,down,right,right,right,down,left,up,left,right,left,left,right,down,right,down,down",
+    "start": {
+      "x": 6,
+      "y": 10
+    },
+    "moves": [
+      "left",
+      "down",
+      "left",
+      "down",
+      "right",
+      "right",
+      "up",
+      "up",
+      "up",
+      "right",
+      "left",
+      "left",
+      "down",
+      "left",
+      "down",
+      "left",
+      "down",
+      "down",
+      "left",
+      "right",
+      "right",
+      "up",
+      "left",
+      "down",
+      "up",
+      "down",
+      "right",
+      "left",
+      "down",
+      "left",
+      "left",
+      "up",
+      "right",
+      "down",
+      "down",
+      "right",
+      "right",
+      "right",
+      "down",
+      "left",
+      "up",
+      "left",
+      "right",
+      "left",
+      "left",
+      "right",
+      "down",
+      "right",
+      "down",
+      "down"
+    ],
+    "responses": [
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK",
+      "OUCH",
+      "YIPEE",
+      "OK",
+      "BLOCKED",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OUCH",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "YIPEE",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK",
+      "Moving",
+      "OK"
+    ],
+    "gold_found": 3,
+    "traps_hit": 2
+  }
+]
